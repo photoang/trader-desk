@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T23:02+08:00",
+ "updated": "2026-10-24T23:09+08:00",
  "regions": {
   "台灣": [
    {
@@ -7,6 +7,13 @@
     "src": "Yahoo 股市",
     "title": "下週台股若偏空「恐再挫1000點」　分析師點名5大未爆彈",
     "link": "https://tw.news.yahoo.com/%E4%B8%8B%E9%80%B1%E5%8F%B0%E8%82%A1%E8%8B%A5%E5%81%8F%E7%A9%BA-%E6%81%90%E5%86%8D%E6%8C%AB1000%E9%BB%9E-%E5%88%86%E6%9E%90%E5%B8%AB%E9%BB%9E%E5%90%8D5%E5%A4%A7%E6%9C%AA%E7%88%86%E5%BD%88-145300259.html",
+    "ts": "2026-10-24T14:53:00+00:00"
+   },
+   {
+    "region": "台灣",
+    "src": "Yahoo新聞",
+    "title": "下週台股若偏空「恐再挫1000點」 分析師點名5大未爆彈",
+    "link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOTGViMjBnU0hnTW5sNVlCaVFiOEFPMEJzQlAwNkZiS1E1amsyWm1UenVXNGs0WUFFRkI5eEpkR193dWhscFFnS3FZM3FoU0tqaW5OV29yTU9HZXpXOExHZHFKUEVYMUZJQVFnTVJSNXdDQTNBeTFTdTdWUnRHSmtNZGRhNHpPNzdjTUtOLUZIRVFXTUx3THJLN3psM2czaGpuR0pwM3d0LXBvNERQa05OcU91LUVkdFpSaTluQXhIR3lUb1plSUdlYkFfSm1pU0E4NjU5NXpZTG5kTDdtTzFKQkRfME1qV0xjVXJVMEQ1aG56ZURUYl9zMVVOOWphT3N6Mjh4Q1V5SGtiemVUUjFvcmVMeHBmU2xTb2hTZ2lxS202ZEthaWNfWm5VcnNEZ2c1OC1GTjJ4OUhWcWZ3QmhadVlmSndjcEVaaXg5dQ?oc=5",
     "ts": "2026-10-24T14:53:00+00:00"
    },
    {
@@ -204,13 +211,6 @@
     "title": "台股何時大反攻…盯五訊號",
     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9LanZrejBkTnNEcWRDSFkzVEJFQ3lWTFZuQUJYdHhmRjU4emF1SmFzUnNqaUJUWFlUN2lDem1RbEE5al9OTUZLejF3R2I2WW9Ia0twNjRHWkJGQdIBX0FVX3lxTE5hNGpmaEJyMTMxNFNNY3VXT1Z4UGs2Q0ptWmRhM0tUOUp5b0VMakVKVEJZZ1VyU1RVTnByMl9QaFJROTM5QTg0NWI2bS1CNFRTa05ROU9HQW50anRIcGNr?oc=5",
     "ts": "2026-10-24T10:21:39+00:00"
-   },
-   {
-    "region": "台灣",
-    "src": "Yahoo 股市",
-    "title": "台股下周又崩盤？「16檔錯殺股」底氣爆表 內行曝KD超賣別亂砍",
-    "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E4%B8%8B%E5%91%A8%E5%8F%88%E5%B4%A9%E7%9B%A4-16%E6%AA%94%E9%8C%AF%E6%AE%BA%E8%82%A1-%E5%BA%95%E6%B0%A3%E7%88%86%E8%A1%A8-%E5%85%A7%E8%A1%8C%E6%9B%9Dkd%E8%B6%85%E8%B3%A3%E5%88%A5%E4%BA%82%E7%A0%8D-101537543.html",
-    "ts": "2026-10-24T10:15:37+00:00"
    }
   ],
   "美國": [
@@ -428,6 +428,13 @@
   "中國香港": [
    {
     "region": "中國香港",
+    "src": "香港文匯報",
+    "title": "中國人民銀行將發行2027版熊貓貴金屬紀念幣- 神州",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFA0YzNsU0EtNk1HMi1NVzlQd1BQN3FDdXQ5U0pDVzBtd1dLSEFfTkRKelpDckVydm5mdFlaazVMekdiQlRtdkVhTWRGWnFQZkQwMHVOY2o3cmxUeGk1NllycnBqMFZQRGN5Qm1CQ3JMSnFvNjRFNE5Z?oc=5",
+    "ts": "2026-10-24T14:57:30+00:00"
+   },
+   {
+    "region": "中國香港",
     "src": "觀點網",
     "title": "招商證券張靜靜：A股大概率延續反彈 增量資金預計逐步入市",
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBsQmdNeDVRbVpaZ0s5dVBiRUZJRDJnY3RCQjJxeDJfUUdqSUZTaUxaN05MQUc0d3EwSVUxVHYtbERYclhHNDYzTDJueU5oWFVBaVZ1ZjdZZU5Ka0pscHFPczhZNHY?oc=5",
@@ -491,24 +498,10 @@
    },
    {
     "region": "中國香港",
-    "src": "香港經濟日報HKET",
-    "title": "北水操作｜北水逾42億買9股 VS 39億沽5股|香港經濟日報",
-    "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPaDF0SVlhWWFTaWJBc1NPTllCTmdESGxZaXZlYkZ1eG9hcGtaWmRYM2tiOGJkVmxYNXdUWjlqSVpGbTlSTGxUdmxyS040d2ZMZlVUVkRIMzhQVGg4LWJzTWkyNVJfQ1RZMnlOZ3VCMmdkSTRLSWJTanFmMGZFQjl6SzlCVlo5bVNpa3ZleVVhSl9HeHROMUhSdDNkODBwUHhwM21RNUV1YVVONlpSdnR0YXdiMFZBY252c3QyMDdib0dCODYwanRZV1V1NWRHWVNEV0NTUGQ4VVpkdnVDdmhYZkhTRU9IdmVpOEVrWnFSRmxocUJ5NDRFRjlWMk9zcUxvWndqZ252TkJfQzI1?oc=5",
-    "ts": "2026-10-24T02:01:12+00:00"
-   },
-   {
-    "region": "中國香港",
     "src": "鉅亨號",
     "title": "跌去10600億，寧王崩了？",
     "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1sNUdkZ25jYTN4WFZZZDZRNVgwTUNRLU9xVWdoZ3NhdUJ4MkpaTDVWVERYYW40WnNGU3JaQVFobHZsbnRMZmhOUg?oc=5",
     "ts": "2026-10-23T23:39:30+00:00"
-   },
-   {
-    "region": "中國香港",
-    "src": "香港經濟日報HKET",
-    "title": "【港股夜期+ADR+北水】夜期收市升4點 網易ADR高港股2%（不斷更新）",
-    "link": "https://news.google.com/rss/articles/CBMijwNBVV95cUxOOF91R3Y1Yk1NOERjX1B1SDVSRGxpVTg3U25TMVZqU1Vzc0lDMmNxejBLQ3NlOURoUUgxdWQxTjJEZk4yVEhUQWo4NEVydzBfeDdQQUlfOWhLcnRDWHBQS2paOXNWZWxRRHppdFIxQzlsTEc0aWlqS204TWNvQW0xQTdLMHUyX3JKVHNrODN0NW13NElGeEk5SjcyQ0xBM1ZJd192RHlMR3VnQjRQTXJtSkwzUU1xdlUyTHZWVlo5bHdLVmlxVk5pdnlaTjJZSFQtMXRGczBqTlE0Z1Nvd0pUQzdzRTNySnhlRUVEd1VuZTV5WkJkcGV2UXdfSXVON1NEYjd6YW43OUw3TXJRR2ZSc0FRc0hyRzRxNGtrbm9QVy14dnh6aTk0amN3MXBlM2NuVW9GZjhhV0g2eUNrSTN0X2paYzRJbEgxNU80VXgwVThBQkxMWk5oeDBiVUZJT1FkUS15ZlU0VnhyRmlnQk9LbTcyZnJzR2FVOFp5SVlxSHJCOEtFbEczdGRmTTdpYTA?oc=5",
-    "ts": "2026-10-23T23:08:53+00:00"
    },
    {
     "region": "中國香港",
@@ -526,6 +519,13 @@
    },
    {
     "region": "中國香港",
+    "src": "香港經濟日報HKET",
+    "title": "【港股夜期+ADR+北水】夜期收市升4點 網易ADR高港股2%（不斷更新）",
+    "link": "https://news.google.com/rss/articles/CBMinANBVV95cUxPdnYxWHVVOGoxWjFVcXlJQW1DVllyeGszaG4yVnlKVE95ZEtYT3pEdVpMZGNRTW9XdENhSUluRS1JQ1JfWnU4WXk5dmEwYTdDRVZuZk9WekU1aFFWaGE1TnlLbzYyQVEwSmdIeHQ3aFU4UkhEY0pWeDFiMWhORVhqdlhReWR4MDk2c1ZTV2ktejRrbXFXWWVCTU1CbVZRMlJiRzZnYmcyT2dWTjNkVW1pWjJnTDhwRUtCRFNIWURzNnVXOUxqa3AtdHotc0xqYldKVDU4YWRHT2hsN0ljWXVkU2NSRVVnZVZCazNjZFg4SmFoUkluUjRYakhMY1FOWXl6Nkg4dWs5MlFkWTY3MS1zdGg2UHREZHlXRDV3SldwVFpVX0N1Z2h1bVd1M3dwVUdNY09SenRPZWM5TlFaTHp1MXZuZXJDcUJGVHVqMmVOYnJKUVg4Y0RnWmZ6SXpyUjJWbl9HMlhwUHotSmVVXy02eXQ3TEJoaWg0ZTJNcWZ5NHc1NkVqUmtubHRjTEU0YVdudTdEdUV6WXpMdFNa?oc=5",
+    "ts": "2026-10-23T22:39:15+00:00"
+   },
+   {
+    "region": "中國香港",
     "src": "明報新聞網",
     "title": "美債息跌帶動港股彈 AI模型股急升 國家隊疑入市撐A股 恒指全周跌1093點4個月最弱 - 20261024 - 經濟",
     "link": "https://news.google.com/rss/articles/CBMingRBVV95cUxPZTFnREpQUE1OT2p3bWk1NDhUX2IzYXF3Q2NYOFBXWDRWTVd4NGwzNl9TTzJEUVpILXI1OFgtRktZUG5pQzNvMFVOT2ZQZjFuWmRXWUk0cHhpZDNTR2t6TFdSTFhybFExa2tFZnJYNzh6Qmh1cDVMWEJCQU5NQUhlMUt2TUFmR1AzY1ZrM2ZkVmx5alVzdkdRQkg1UDVYc2NEWFpnc3A0anBfUmFLZDlfMDRGbWlscFRfUDk3dmF4eVpLX0YtVDFndFR5dWJtajVZNHUxQ0VicHkycHI4M2lkQi1HaV9tbTNtSThOZVg5MFRCNXZTMzFlWDJMQ25XUVAwSUxMdlE2c0RsalBUWExMbzJrLXBrU2dzR00xS1l1YWlOWDE0THN6WVYxaHpqSGxxdWFiaW5yaXZXQm55ZVM5MVQ2bEhsbEFPczJwX3dHZG9mUnVXeV9FMlJtc1lkRm1pdDBnYjFVdjBrZDgySWRWOGJ3cEFRRHpyQkZyLS1zSWhhMHd5TjN5MjNQeVJ1ZVlGTUlSRUdqekJabjhIQkJJTzVOUmRTc1A2TWxvcmxBc09HenRZQThCaERLUFZBdVpIUGFZMzdPMHNuTjlVbk84bk0waThnd1gwNHJVNHZwRGRSV3FMUTRCTTRZZ2Fyd2VpUGt3Tzk3cm5talFraVJhdDRYdHNiUGE2eEM4OEpmVHFhcjlwa3UtVUtrejVjdw?oc=5",
@@ -533,10 +533,17 @@
    },
    {
     "region": "中國香港",
-    "src": "股市報價& 財經新聞",
-    "title": "港股異動| AI硬件股午後反彈中際旭創(03308)一度漲超6% 多家科技公司發聲穩定市場信心作者智通財經 - Investing.com 香港",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE14aXhnZmQ1MjJoeUgxeXphSFlUZC16bUJuYUlnaDViUmJzOGh3VFNzZE5oMmJVa18yWDNISmVNTjdXZW0wMk9jSDNSaU41VEZYLXJsWi02T0Rmb2FzT1dubi1GazhFaTJGc0hiQW4weUo?oc=5",
-    "ts": "2026-10-23T18:22:30+00:00"
+    "src": "Moomoo",
+    "title": "【IPO追蹤】江豐電子（300666.SZ）籌劃港股上市：靶材龍頭的A＋H資本棋局",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE00N1k2d0sxZDJUaFlDSE9aODRwanFXeHVmRlRtN3RtUkxuSzJYUkh6QU9WUlczeG5YTjgxcUxEWUNtcWR6U2RFTGNRdWpXMTRDU0dnVFRoVlBlQ1BW?oc=5",
+    "ts": "2026-10-23T19:37:11+00:00"
+   },
+   {
+    "region": "中國香港",
+    "src": "信報網站",
+    "title": "大摩：資金流不利 港股未觸底",
+    "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNc3YzRlRJSG9xNGx1MjdETGp0YlBHSUVBcVVYVkFfVWh0ckhWSVB2a3ZXam9HTmZZZmw3ZnF6cm9uM0NnMzlBT3VuODlaOWx0cUdhNUJSNTNoUGhPTVNXLXVmcU05WkVZQlBhRDlGQXVFajYzUDZTV2d6bWNuTk1LdzBIYXNENXl4X1NFR0NJc0JEZllIWTVLSkFOQjRGd2dneUpyeko5RHNZVEdBUlY3aDI5aDBVTThlNVlBMWEzY2Rub3VjcWUyUUs3LUhZTXhFTVg4VGY5cjRJMzU5X0VkdGNiQVFXalBCWXZWSU9hOEt3RzVaWXFUMUtEbnIyaDJXV0pYZw?oc=5",
+    "ts": "2026-10-23T18:48:10+00:00"
    },
    {
     "region": "中國香港",
@@ -551,13 +558,6 @@
     "title": "HSI分析｜港股超跌反彈 「追稅風暴」波動性仍未完？|香港經濟日報",
     "link": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxOMWI4U0JuU3duWFQwamxTS2lhamtlQkppbnFyNFBHWjI3ajdSNXBTZzYxeFpKNlVsVkxuenBOTFVBYmFlQVV2MVhad2VZS3ZsVzdlQlg5SzlBZ2VZNXFkZ1h4SUdseUREVFRlOXBzQ0JmQTQ0N3lkQURibUg0bmNrWURSNFJYaWhvNzI4bDB5WS1rT2FzOEtveXRGMWl6OHBXeXhUNTYyRllqVW1DcjVnZFp0ME94ckhvLVdjcE5JRUNJMEExcjNlZ3pqTkc0aUFCZ3kzTmN1M0pRd1NYelVFbHp4Yy02OHNweGtWV1NmZ29wbzg3OHZCODZJeVJ5bjRCQnlpUXVieHFpeTFvbEdtNi1jV3ZMQW9FaXFaVXNZVFJNMTJuelhZZXU5YkdYamdGU3pvZDZlYmFWdkhuQTFNSlNUZG1ydlZMbWVzZlhqUUFENXNWTk1PS0x1djZkTWk0amc?oc=5",
     "ts": "2026-10-23T17:26:58+00:00"
-   },
-   {
-    "region": "中國香港",
-    "src": "BigGo 財經",
-    "title": "科大智慧重啟港股IPO 上半年毛利率升至24.9%、客戶集中度同步攀高",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8zRnFvMzVzd0NCNU80MnMtcHR4YU9XalpGblNUM2c4N2QzaGRma2djMlpPY25yMFAwSG1HSjhHekNselRtZzI2SGZnZlVUamszaEp0ZnhYSWFiTzY4RFc1eEtUMmNiUzQ4R1RXQ0kyT1I4XzBYYVBMNTZR?oc=5",
-    "ts": "2026-10-23T14:25:00+00:00"
    },
    {
     "region": "中國香港",
@@ -596,16 +596,9 @@
    },
    {
     "region": "中國香港",
-    "src": "股市報價& 財經新聞",
-    "title": "港股收評：A股半導體龍頭稱行業發展向好，港股午後存儲光通信PCB集體拉昇，恒指重回23000點作者格隆匯 - Investing.com 香港",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB4UTl0eGdoM05hbzJNTUdrdTJKWTEtM3IzRkJHX2VZeGpmRmlNMFo0elp1VW9xaExGRWY2TE0xWGsxdFNwbjVRdU50cXQtamRBZG1ZTk9EbzRwdGhsS0RyMWVzSGs3TGZCRGNlQ0NqZWU?oc=5",
-    "ts": "2026-10-23T09:32:39+00:00"
-   },
-   {
-    "region": "中國香港",
     "src": "TradingView",
     "title": "《中國債市綜述》現券窄幅震盪，A股大幅反彈與資金利率回升擾動情緒",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9weDZKbUNpSXNyMGt5VXlZbnZVUnlUV2pjNGpzcEcyTkFEVHBNTlZ3WVlibzlmZ3NlbnFuN1ZLNDRKVDI4VGxUVkwtci0yNFQ5MG9IdkloTTFXb2RtTVpTZXpSOXN0ZlJwamEyVHh4bEZrZVR0UkVR?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0yVEZZN3FzbDJ1OUxKLS1ySXJLYmRhdFhYanhyX3FxeHpfaGVxWWRhR25WT1NfVW1pN25rXzh1WFpTcGx6d0lxeE9wUDNKRUZldkFmM3FkSjdPRjV4N1M1Q0NXbHlTckR4UFFUbXlBOVlzNHpGY1NZ?oc=5",
     "ts": "2026-10-23T09:26:10+00:00"
    },
    {
@@ -635,6 +628,13 @@
     "title": "A股CPO概念股回升，中際旭創升超2%",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1iZ1hHdnI4NHdWLU5iQkdkQ2FSVjBsaVNMUnNhemo5eVRWUS1xUFZGRWlnbkpBaXhPdFZ2U1ZJS2VuVGZ1M3JKb0JoMkFkdE5rTXNKUWwya3pQbzc4VzVuRnU0MDlkbWU1NVE?oc=5",
     "ts": "2026-10-23T09:20:37+00:00"
+   },
+   {
+    "region": "中國香港",
+    "src": "工商時報",
+    "title": "港股破發潮擴大！近九成「A＋H」股跌破發行價、平均跌逾35％",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBKcHZYN0Q0RnR0OHc3bkRLMVBhSDZ6eUtjb0lJQWNnaFExM1g1TWQ4a3U0ZWVlcW9WYTlHbmFTa0cwRXNQcy1mWUxwdWlMV0pQVWxsVHo0ZzlpdlNRNFZN?oc=5",
+    "ts": "2026-10-23T09:10:00+00:00"
    }
   ],
   "日本": [
@@ -686,13 +686,6 @@
     "title": "日本 GMO 外匯主機遭駭勒索，超衰用戶 2 秒虧 400 萬日圓",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcGstdWRNMEJUMmNPaXlwSnJoQ2p5b3VpYjNTZTQxbzBVczk5MnNjVkVjbGNtNlZNZjB2RFN2SnZKdmYxVExlUGN2blVZdldZcS04bDE3V0pYamxmbnhfVnFwaGN5N2RSWTJ3ZkpZckRjLXhOaXRBV2t6aGhkNkI2aHowU0lLNnRxT1RnenpESmlHbGZiTWYxcC1CYk1HZw?oc=5",
     "ts": "2026-10-24T10:06:35+00:00"
-   },
-   {
-    "region": "日本",
-    "src": "報新聞",
-    "title": "東京築地京阪Grande飯店2樓餐廳改裝「UOMAN」11月1日開幕 本鮪與黑毛和牛和洋料理",
-    "link": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxOYjgzWGpaNnNrcGRJUDVhY19aN19RbENzbnRLcmpmZVU4Q2huRWw3UmNJZDNNWWRxWTZaMC1rQndVMWRrTmVfWDB5Vk1FUUNrU0hVSnNzT3AyMXhyVWQ0VEtlUHk2QXdQbXJra19TdFVocVJpeElyUzcyMXpDRnpyMkRqR1dZV3Q1aEJEZWV0NDhla0tIbThtMFdHbml3aG5lRktmbFByYXByUXl4SWR3RDZlNG8tOGdHeFNaLUhlYzlLajJhdVNQWFhfYmQwYjQ4bEY4NWEySHFQdjV0MTZ3S21IYnF4bGQ0RHFkNmwxVmREMDFhU00ydFNkRS1YRHZ6cFg2OGZkQUJMRjBCSmpXMmZTLW4ya3NqTXRFR214RmYxLWZhbFF2VWFUVjRtOEE4WHpvVGhDSnlZUE42NEZJS2RRNHNxV3RhcEhnWVY5ZDVVU013Uy1feHlhUUg1ZFJpcEZv?oc=5",
-    "ts": "2026-10-24T09:25:35+00:00"
    },
    {
     "region": "日本",
@@ -787,6 +780,13 @@
    },
    {
     "region": "日本",
+    "src": "BigGo 財經",
+    "title": "【Material Group FY2026 Q4 法說會】營收87億日圓、營業利益大增39.7%超標，惟Q4轉虧與未上修財測成股價壓力",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9iSXFPWTVUZVAzTWlTb2h3UlNKMC1BVlFiTVZnSXBhUnhxUnFPTnMzYU5Vc0pqZG5uOFVCSzc2VUxDM19YQmxrbTJYSEc3aWl3QzFoOXhHU3NPc0xiZG1PY3JrZlA?oc=5",
+    "ts": "2026-10-23T19:44:00+00:00"
+   },
+   {
+    "region": "日本",
     "src": "TradingView",
     "title": "《全球匯市》法國政局與財政憂慮打壓歐元，日圓受避險買盤提振",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1LeGdwV0xqMHpLbFZHR3F0U0FGUGE1MVFhbWZZSHF6OW1paG5MZU9RekxLRk1iTWFrazFRSG40WGd6bW84dWV0bk9yTlR5cGE4d0RsekdCajI0MUhuTTVhMUJ0TzlXQkVmODViemZlaWh6X1gzNTM0?oc=5",
@@ -866,6 +866,13 @@
    },
    {
     "region": "韓國",
+    "src": "LINE TODAY",
+    "title": "討論牆 | 三星 Galaxy A36 5G 印度亞馬遜促銷 大降逾萬盧比",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBpMFdVb3BLenk0MXcycTFFWVl0NWtVQWpUYmhvTG1zd3hfaHpMb3FMSlZUZldOUlplX0tEaENCX2ttWkNIai1ESnNhSmlOWUk0eVdPc1d3QW5pdnl3U2k3c2tOS2g?oc=5",
+    "ts": "2026-10-24T13:04:54+00:00"
+   },
+   {
+    "region": "韓國",
     "src": "SOGI手機王",
     "title": "蘋果與三星摺疊機維修誰更貴？iPhone Duo換螢幕幾乎可買iPhone 17 Pro",
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE55ckZIcFBndWM2Ty1YV2pQNlpaM2VUTUFOV2VlSXE5Z29pTTFoNEF6SDN3Tml3M2ppYlBTOFo0OGpmQnhIQlozUVZIYk9MbFQ3alFqYkhqVHRwMEJ3eEhoMndxRG0?oc=5",
@@ -919,13 +926,6 @@
     "title": "輝達、特斯拉砸900億綁定三星載板！法人示警：台廠恐長線衝擊",
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE02REliX0N6MDNmMEJfLW9DbDQ2T0pNRmlqN2Q2MEYyUDRkaGJ0X19INVZ2ZFRIZ2s3bDljSzBXTEp5MExDb2x2Q2FXcTZnVzE1OC1FdnF4Q0pFNmNsbEhzRWZBRENLR0lNd0dJdXZB?oc=5",
     "ts": "2026-10-24T09:58:12+00:00"
-   },
-   {
-    "region": "韓國",
-    "src": "LINE TODAY",
-    "title": "討論牆 | 韓股崩跌40%「台股僅跌4%」！ 專家斷言：情況很明顯了",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1NS0FBT1N4UE1TSVpVaFhSOUs4THVzWVZyWjlrR1kzVE5PY1M4T05UUnR6UW95N3lKb202TmZxNVRldGdOVG41OFVEQ0puSTQwcjNtVnhSQnY5X3N2azI4VUtoZXA?oc=5",
-    "ts": "2026-10-24T09:56:33+00:00"
    },
    {
     "region": "韓國",
@@ -1027,6 +1027,13 @@
    },
    {
     "region": "韓國",
+    "src": "ePrice.TW",
+    "title": "三星 Galaxy S27 Ultra、Pro 電池量曝光 傳為保留 S Pen 放棄 7,000mAh 方案",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB0T0VaZFdHN2NmZ3VEMDdGUjZ3ekhTRVl1MWhKLVBRNl9MUjV5ajVYZDNKZVNsd20yRjVFdURhNUhaSHpUamhVSmpKblo0WDVid2J5TzQzZDlUb1d5SFhV?oc=5",
+    "ts": "2026-10-24T05:08:00+00:00"
+   },
+   {
+    "region": "韓國",
     "src": "ETtoday財經雲",
     "title": "韓國股市狂跌40%「台股才4%」！投資達人分析走勢：情況很明顯了",
     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9WbXdtVm03eFdHUm80aEc4dHZ1SUVqVnh6Ty1zWFJDeF91THpBZEtuY3lwdlJRay1tYkkzd1ZqcnkwUlA2QUtHcm1FSTB5aTdvMHfSAVBBVV95cUxNTTZRZHlkVU9yX3R5TnRxVHQ4OURWX1Z3Yy0xNzh2c1BWcjdRV1UxSUU3WWhlQThpNVBORUxPZzlTWlB3WVRvRXQweHlVYkliYw?oc=5",
@@ -1052,13 +1059,6 @@
     "title": "三星德州廠加碼2奈米設備！2027年下半年月產能可望達2萬片",
     "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1kbmd2aV9tVkxCb0J4R1o1cVE5ekUxdG5Wb25YMk5WdmpjT2swS2FmOG93MkwtNktIQ1llakpkUXdVam8zTFNQTjNpcw?oc=5",
     "ts": "2026-10-23T22:52:18+00:00"
-   },
-   {
-    "region": "韓國",
-    "src": "非凡新聞台",
-    "title": "AI恐慌亞股大洗三溫暖! 日韓股先暴跌再收斂| 國際",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0wUXRrc245SVNySEJER1pGTjNrQVdyMVVvdXBHb2xFZW1lUGNqWE1FYm1JNEI5LXhJNGVSYUtDcEZ6RlRNc1d1bGVhTHdQNzBhb0VwSWRZZFRjbjg?oc=5",
-    "ts": "2026-10-23T22:24:39+00:00"
    }
   ],
   "歐洲": [
@@ -1117,13 +1117,6 @@
     "title": "UK to invest £100m in 'world first' AI Biosecurity Lab",
     "link": "https://www.bbc.co.uk/news/articles/cqdjv8xllvyyo?at_medium=RSS&at_campaign=rss",
     "ts": "2026-10-24T00:05:45+00:00"
-   },
-   {
-    "region": "歐洲",
-    "src": "www.tmgm.com",
-    "title": "歐洲央行：再升息一次後，利率將長期維持不變 – 德國商業銀行",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOS2dsZnpQVXN3TW5oVjJUbnIyQ3Y3dURWZ1U5amVWdUVpQXpuaUZRcmQ5cWNEVVV3QkQ5VkdGT1NMSUd1WXp6QVhBWTJjUHhPUlh5NWZRWmp1cnlrUmlqQXBTTkd3OWxDQW1kdVJnV1JIblRvTjAzN2cwRTdWZkdOTTdJLUhTRUVkR3ZIeVZ6aUE1RjI3RkxBcXZMNWlmTmQySDlObG9TNW9JM0QzVmdyTjlZdGl1Y2ZSR04wOV90XzFyY0lybHJuS1hYUXBud3pMdEE?oc=5",
-    "ts": "2026-10-23T22:53:26+00:00"
    },
    {
     "region": "歐洲",
@@ -1229,6 +1222,13 @@
     "title": "歐元區10月PMI降至51.9　企業活動成長放緩",
     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5FQXJjNFFrc0Q5WklrZDVUSDJqNUpsTjFwNFFkUGNXc2U3MUx2NXRPeVFleXFQb0VoM3NOdWctcmFMelRqd2FzWXZqMGYxMVQwVVhhVURoMVVad9IBX0FVX3lxTE9hdmJPX1BuWTNuRHVlRk9Sb090NHBQRk1Yak02aEV2UDNuUHh6SHhlZ0htaEYxOVFWeWVnU3VPN2ZBZWExM1htZ3ZTTW0wbFFZUFZmWDB1Qms1VjNjUEow?oc=5",
     "ts": "2026-10-23T09:45:25+00:00"
+   },
+   {
+    "region": "歐洲",
+    "src": "群益期貨",
+    "title": "短期通脹預期連升兩月，歐洲央行利率路徑再受關注！",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNQ2RyaE9pZ1puUFdGMElUcHlrcktoeDhta2kxWmdjSTRPaU95bl9JMDJJZklpQlQ3dWpRaEUxY2ZySzdwSkFvYTVCVGkwV1pxaHlFU2xjZlFXTnh4SFppUHljUTFhMmJ3Wm9pZ0w3b2JJcVo4aUNLZDVFWjM0UWc5QlVMU3FHNDRRVFpkSkZRNA?oc=5",
+    "ts": "2026-10-23T09:31:07+00:00"
    },
    {
     "region": "歐洲",
