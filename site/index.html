@@ -1,0 +1,522 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>自營交易台</title>
+<meta name="description" content="台股自營交易員的每日看盤入口：行情、籌碼、交易時段與各國財經新聞。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@700;900&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: 交易台面板 — 頂部狀態列 + 兩欄（籌碼/時鐘/流程 | 行情/新聞/資料），手機單欄 */
+:root{
+  --bg:#EEF1F4; --surface:#FFFFFF; --sunk:#E4E9EE; --ink:#14202B; --muted:#5A6774; --line:#D3DBE3;
+  --accent:#1E5A86; --accent-soft:#DCE8F2;
+  --up:#C42F27; --down:#1B8047; --warn:#B7791F;
+  --f-display:"Noto Serif TC","Songti TC",serif;
+  --f-body:"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,"SFMono-Regular",Menlo,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root{
+  --bg:#0D1319; --surface:#141C24; --sunk:#1A242E; --ink:#E5EBF0; --muted:#8D9AA7; --line:#26323E;
+  --accent:#71B3E0; --accent-soft:#1B3245; --up:#FF6E62; --down:#4FC383; --warn:#E5AE52; color-scheme:dark}}
+*{box-sizing:border-box}
+html{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.6;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 48px}
+[hidden]{display:none!important}
+.wrap{max-width:1180px;margin:0 auto;display:flex;flex-direction:column;gap:20px}
+a{color:var(--accent)}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.mono{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.up{color:var(--up)} .dn{color:var(--down)} .flat{color:var(--muted)}
+header.top{display:flex;flex-wrap:wrap;gap:16px 28px;align-items:flex-end;justify-content:space-between;border-bottom:2px solid var(--ink);padding-bottom:14px}
+h1{font-family:var(--f-display);font-weight:900;font-size:clamp(28px,5vw,40px);line-height:1.1;margin:0;letter-spacing:.02em}
+.sub{color:var(--muted);font-size:13px;margin-top:6px}
+.clock{display:flex;gap:20px;flex-wrap:wrap;align-items:flex-end}
+.clock .t{font-family:var(--f-mono);font-size:clamp(26px,5vw,36px);font-weight:600;font-variant-numeric:tabular-nums;line-height:1}
+.clock .d{color:var(--muted);font-size:13px}
+.phase{display:inline-flex;align-items:center;gap:8px;padding:6px 12px;border-radius:999px;font-weight:700;font-size:14px;background:var(--sunk)}
+.phase i{width:8px;height:8px;border-radius:50%;background:var(--muted)}
+.phase.live{background:var(--accent-soft);color:var(--accent)} .phase.live i{background:var(--accent);animation:pulse 1.6s infinite}
+@keyframes pulse{50%{opacity:.3}}
+@media (prefers-reduced-motion:reduce){.phase.live i{animation:none}}
+.strip{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+.stat .k{font-size:12px;color:var(--muted);letter-spacing:.06em}
+.stat .v{font-family:var(--f-mono);font-size:20px;font-weight:600;font-variant-numeric:tabular-nums}
+.stat .n{font-size:12px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:20px;align-items:start}
+@media (max-width:880px){.grid{grid-template-columns:minmax(0,1fr)}}
+.col{display:flex;flex-direction:column;gap:20px;min-width:0}
+section.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 18px;min-width:0}
+h2{font-family:var(--f-display);font-size:20px;margin:0 0 4px;text-wrap:balance}
+.hint{color:var(--muted);font-size:12.5px;margin:0 0 12px}
+.row{display:flex;justify-content:space-between;align-items:baseline;gap:8px;flex-wrap:wrap}
+.fresh{font-size:12px;color:var(--muted);font-family:var(--f-mono)}
+/* 籌碼 */
+.chip{display:grid;grid-template-columns:1fr auto auto;gap:2px 14px;font-size:14px;align-items:baseline}
+.chip .h{grid-column:1/-1;font-size:12px;letter-spacing:.1em;color:var(--muted);font-weight:700;margin-top:12px;display:flex;justify-content:space-between}
+.chip .h:first-child{margin-top:0}
+.chip .h span{font-weight:400;letter-spacing:0;font-family:var(--f-mono)}
+.chip .l{padding:4px 0;border-top:1px solid var(--line)}
+.chip .v,.chip .c{padding:4px 0;border-top:1px solid var(--line);text-align:right;font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.chip .c{font-size:12.5px;min-width:70px}
+.spark{width:100%;height:auto;display:block;margin-top:6px}
+.spark text{fill:var(--muted);font-family:var(--f-mono);font-size:10px}
+/* 行情 */
+.qgrp{margin-bottom:12px}.qgrp:last-child{margin-bottom:0}
+.qgrp h3{font-size:12px;letter-spacing:.1em;color:var(--muted);margin:0 0 6px;font-weight:700}
+.qs{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:6px}
+.q{border:1px solid var(--line);border-radius:6px;padding:7px 10px;background:var(--bg);min-width:0}
+.q .nm{font-size:12.5px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.q .px{font-family:var(--f-mono);font-size:16px;font-weight:600;font-variant-numeric:tabular-nums}
+.q .ch{font-family:var(--f-mono);font-size:12px;font-variant-numeric:tabular-nums}
+/* 時鐘 */
+table.mk{width:100%;border-collapse:collapse;font-size:14px}
+table.mk td{padding:7px 4px;border-top:1px solid var(--line);vertical-align:middle}
+table.mk tr:first-child td{border-top:0}
+table.mk .nm{font-weight:500}
+table.mk .nm small{display:block;color:var(--muted);font-weight:400;font-size:12px}
+table.mk .lt{text-align:right;color:var(--muted)}
+.pill{display:inline-block;font-size:12px;font-weight:700;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.pill.open{background:var(--accent-soft);color:var(--accent)}
+.pill.pre{background:var(--sunk);color:var(--warn)}
+.pill.closed{background:var(--sunk);color:var(--muted)}
+td.st{text-align:right;white-space:nowrap}
+td.st small{display:block;color:var(--muted);font-size:11.5px;font-family:var(--f-mono)}
+/* 流程 */
+.steps{display:flex;flex-direction:column;gap:4px}
+.stage{font-size:12px;letter-spacing:.12em;color:var(--muted);font-weight:700;margin:10px 0 2px}
+.stage:first-child{margin-top:0}
+label.chk{display:grid;grid-template-columns:20px 54px 1fr;gap:8px;align-items:start;padding:6px 4px;border-radius:6px;cursor:pointer}
+label.chk:hover{background:var(--sunk)}
+label.chk input{margin-top:4px;accent-color:var(--accent)}
+label.chk .tm{font-family:var(--f-mono);font-size:13px;color:var(--muted);padding-top:1px}
+label.chk .tx a{font-weight:500}
+label.chk.done .tx{color:var(--muted);text-decoration:line-through}
+button.btn{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:6px;padding:4px 10px;cursor:pointer}
+button.btn:hover{background:var(--sunk)}
+/* 新聞與連結 */
+.search{width:100%;font:inherit;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);margin-bottom:12px}
+.tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.tabs button{font:inherit;font-size:13.5px;border:1px solid var(--line);background:transparent;color:var(--muted);border-radius:999px;padding:4px 12px;cursor:pointer}
+.tabs button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+ol.news{list-style:none;margin:0;padding:0;max-height:560px;overflow-y:auto}
+ol.news li{border-top:1px solid var(--line);padding:8px 2px}
+ol.news li:first-child{border-top:0}
+ol.news a{color:var(--ink);text-decoration:none;font-weight:500}
+ol.news a:hover{color:var(--accent);text-decoration:underline}
+ol.news .meta{font-size:12px;color:var(--muted);display:flex;gap:10px}
+ol.news .meta .ago{font-family:var(--f-mono)}
+.group{margin-bottom:14px}.group:last-child{margin-bottom:0}
+.group h3{font-size:13px;letter-spacing:.08em;color:var(--muted);margin:0 0 6px;font-weight:700;display:flex;gap:8px;align-items:baseline}
+.group h3 span{font-weight:400;letter-spacing:0}
+.links{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:6px}
+a.lk{display:block;text-decoration:none;color:var(--ink);padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--bg);min-width:0}
+a.lk:hover{border-color:var(--accent)}
+a.lk b{font-weight:500;display:block}
+a.lk em{font-style:normal;color:var(--muted);font-size:12.5px;display:block}
+a.lk .tag{font-size:11px;color:var(--warn);font-weight:700;margin-left:6px}
+a.lk .when{font-family:var(--f-mono);font-size:11.5px;color:var(--accent);margin-left:6px}
+.empty{color:var(--muted);font-size:14px}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:12.5px;color:var(--muted)}
+footer{color:var(--muted);font-size:12.5px;border-top:1px solid var(--line);padding-top:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header class="top">
+  <div>
+    <h1>自營交易台</h1>
+    <div class="sub">台股為主的每日看盤入口：行情、籌碼、交易時段與各國財經新聞。</div>
+  </div>
+  <div class="clock">
+    <div><div class="t" id="tpeTime">--:--:--</div><div class="d" id="tpeDate">台北時間</div></div>
+    <span class="phase" id="twPhase"><i></i><span>判斷中</span></span>
+  </div>
+</header>
+
+<div class="strip">
+  <div class="stat"><div class="k">台指期 月結算</div><div class="v" id="settle">—</div><div class="n" id="settleN">每月第三個週三 13:30</div></div>
+  <div class="stat"><div class="k">上市櫃 月營收公布截止</div><div class="v" id="rev">—</div><div class="n">每月 10 日前</div></div>
+  <div class="stat"><div class="k">美股現貨（台北時間）</div><div class="v" id="usHrs">—</div><div class="n" id="usDst">依美國日光節約自動換算</div></div>
+  <div class="stat"><div class="k">期貨夜盤</div><div class="v">15:00–05:00</div><div class="n">日盤 08:45–13:45</div></div>
+</div>
+
+<div class="grid">
+<div class="col">
+  <section class="panel">
+    <div class="row"><h2>盤後籌碼</h2><span class="fresh" id="chipFresh"></span></div>
+    <p class="hint">資料來自證交所與期交所，盤後自動更新。</p>
+    <div class="chip" id="chip"><p class="empty" style="grid-column:1/-1">資料載入中。第一次部署後約幾分鐘會出現。</p></div>
+    <svg class="spark" id="spark" viewBox="0 0 400 120" role="img" aria-label="外資台指期淨未平倉走勢" hidden></svg>
+  </section>
+
+  <section class="panel">
+    <h2>全球市場時鐘</h2>
+    <p class="hint">依各交易所當地時區即時計算，未計入國定假日。</p>
+    <table class="mk"><tbody id="mkBody"></tbody></table>
+  </section>
+
+  <section class="panel">
+    <div class="row"><h2 style="margin:0">今日看盤流程</h2><button class="btn" id="resetChk" type="button">清除勾選</button></div>
+    <p class="hint" style="margin-top:4px">勾選只存在這台裝置，每天自動重置。盤後資料公布時間為約略值，以官網為準。</p>
+    <div class="steps" id="steps"></div>
+  </section>
+</div>
+
+<div class="col">
+  <section class="panel">
+    <div class="row"><h2>國際行情</h2><span class="fresh" id="qFresh"></span></div>
+    <p class="hint">最近一個交易日收盤或最新價，與前一日比較。非即時報價。</p>
+    <div id="quotes"><p class="empty">資料載入中。</p></div>
+  </section>
+
+  <section class="panel">
+    <div class="row"><h2>財經新聞頭條</h2><span class="fresh" id="nFresh"></span></div>
+    <p class="hint">只列標題與來源，點開到原媒體閱讀。</p>
+    <div class="tabs" id="newsTabs"></div>
+    <ol class="news" id="newsList"><li class="empty">資料載入中。</li></ol>
+  </section>
+
+  <section class="panel">
+    <h2>資料與媒體連結</h2>
+    <p class="hint">官方資料頁與各國媒體網站。</p>
+    <input class="search" id="q" type="search" placeholder="搜尋：外資、融資、P/C、結算、FedWatch…" aria-label="搜尋連結">
+    <div class="tabs" id="dataTabs"></div>
+    <div id="dataList"></div>
+  </section>
+</div>
+</div>
+
+<footer>
+  <div class="legend"><span>台股慣例：<span class="up">紅漲</span>、<span class="dn">綠跌</span></span><span>時段未含颱風假、國定假日與交易所臨時公告</span><span>本頁為資訊入口，不構成投資建議</span></div>
+</footer>
+</div>
+
+<script>
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const store={get(k,d){try{const v=localStorage.getItem(k);return v==null?d:JSON.parse(v)}catch(e){return d}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+
+/* ---------- 時區工具 ---------- */
+function partsIn(tz,d=new Date()){
+  const f=new Intl.DateTimeFormat('en-US',{timeZone:tz,hour12:false,year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',second:'2-digit',weekday:'short'});
+  const o={};f.formatToParts(d).forEach(p=>o[p.type]=p.value);
+  const wd={Sun:0,Mon:1,Tue:2,Wed:3,Thu:4,Fri:5,Sat:6}[o.weekday], h=+o.hour%24;
+  return {y:+o.year,m:+o.month,d:+o.day,h,mi:+o.minute,s:+o.second,wd,min:h*60+(+o.minute)};
+}
+const hm=m=>String(Math.floor(m/60)%24).padStart(2,'0')+':'+String(m%60).padStart(2,'0');
+const dur=m=>m>=60?Math.floor(m/60)+' 小時 '+(m%60)+' 分':m+' 分';
+
+/* ---------- 全球市場 ---------- */
+const markets=[
+  {n:'台灣 加權指數',s:'TWSE 現股',tz:'Asia/Taipei',ses:[[540,810]],pre:[[510,540]]},
+  {n:'台指期 日盤',s:'TAIFEX',tz:'Asia/Taipei',ses:[[525,825]],pre:[[510,525]]},
+  {n:'日本 東證',s:'TSE · 日經225',tz:'Asia/Tokyo',ses:[[540,690],[750,930]]},
+  {n:'韓國 KOSPI',s:'KRX',tz:'Asia/Seoul',ses:[[540,930]]},
+  {n:'香港 恒生',s:'HKEX',tz:'Asia/Hong_Kong',ses:[[570,720],[780,960]]},
+  {n:'中國 上證/深證',s:'SSE · SZSE',tz:'Asia/Shanghai',ses:[[570,690],[780,900]]},
+  {n:'德國 DAX',s:'Xetra',tz:'Europe/Berlin',ses:[[540,1050]]},
+  {n:'英國 FTSE',s:'LSE',tz:'Europe/London',ses:[[480,990]]},
+  {n:'美國 S&P / 那斯達克 / 費半',s:'NYSE · Nasdaq',tz:'America/New_York',ses:[[570,960]],pre:[[240,570]]}
+];
+function mkStatus(m){
+  const p=partsIn(m.tz), wk=p.wd>=1&&p.wd<=5, t=p.min;
+  if(wk){
+    for(const [a,b] of m.ses) if(t>=a&&t<b) return {c:'open',l:'交易中',x:'收盤倒數 '+dur(b-t)};
+    for(const [a,b] of (m.pre||[])) if(t>=a&&t<b) return {c:'pre',l:'盤前',x:'開盤倒數 '+dur(m.ses[0][0]-t)};
+    const nx=m.ses.find(([a])=>a>t);
+    if(nx) return {c:'closed',l:m.ses.some(([,b])=>b<=t)?'午休':'未開盤',x:'開盤倒數 '+dur(nx[0]-t)};
+  }
+  return {c:'closed',l:'休市',x:''};
+}
+function renderMarkets(){
+  $('#mkBody').innerHTML=markets.map(m=>{
+    const p=partsIn(m.tz), st=mkStatus(m);
+    return `<tr><td class="nm">${m.n}<small>${m.s}</small></td><td class="lt mono">${hm(p.min)}</td>
+      <td class="st"><span class="pill ${st.c}">${st.l}</span>${st.x?`<small>${st.x}</small>`:''}</td></tr>`;
+  }).join('');
+}
+
+/* ---------- 台股時段與日期 ---------- */
+function twPhase(){
+  const p=partsIn('Asia/Taipei'), t=p.min, wd=p.wd, wk=wd>=1&&wd<=5;
+  const night=(wk&&t>=900)||(wd>=2&&wd<=6&&t<300);
+  if(wk&&t>=540&&t<805) return ['現股盤中',true];
+  if(wk&&t>=805&&t<810) return ['收盤集合競價',true];
+  if(wk&&t>=810&&t<825) return ['期貨收盤前',true];
+  if(wk&&t>=825&&t<900) return ['盤後整理',false];
+  if(wk&&t>=525&&t<540) return ['期貨已開盤・現股盤前',true];
+  if(wk&&t>=480&&t<525) return ['盤前準備',false];
+  if(night) return ['期貨夜盤交易中',true];
+  if(!wk) return ['週末休市',false];
+  return ['盤前（夜盤已收）',false];
+}
+function thirdWed(y,m){const d=new Date(Date.UTC(y,m-1,1));return 1+(3-d.getUTCDay()+7)%7+14;}
+function renderTop(){
+  const p=partsIn('Asia/Taipei');
+  $('#tpeTime').textContent=hm(p.min)+':'+String(p.s).padStart(2,'0');
+  $('#tpeDate').textContent=`${p.y}/${String(p.m).padStart(2,'0')}/${String(p.d).padStart(2,'0')} 週${'日一二三四五六'[p.wd]} · 台北時間`;
+  const [l,live]=twPhase(), ph=$('#twPhase');
+  ph.className='phase'+(live?' live':''); ph.querySelector('span').textContent=l;
+  let y=p.y,m=p.m,sd=thirdWed(y,m);
+  if(p.d>sd||(p.d===sd&&p.min>=810)){m++;if(m>12){m=1;y++;}sd=thirdWed(y,m);}
+  const today=Date.UTC(p.y,p.m-1,p.d), days=Math.round((Date.UTC(y,m-1,sd)-today)/864e5);
+  $('#settle').textContent=`${m}/${sd}（週三）`;
+  $('#settleN').textContent=days===0?'今天結算 13:30':`還有 ${days} 天 · 13:30 結算`;
+  let rm=p.m,ry=p.y; if(p.d>10){rm++;if(rm>12){rm=1;ry++;}}
+  const rd=Math.round((Date.UTC(ry,rm-1,10)-today)/864e5);
+  $('#rev').textContent=`${rm}/10`+(rd>0?` · ${rd} 天`:' · 今天');
+  const ny=partsIn('America/New_York'), off=((p.min-ny.min)+2880)%1440;
+  $('#usHrs').textContent=`${hm((570+off)%1440)}–${hm((960+off)%1440)}`;
+  $('#usDst').textContent=(off===720?'美國夏令時間':'美國冬令時間')+'，依日光節約自動換算';
+}
+
+/* ---------- 資料格式 ---------- */
+const cls=v=>v==null?'flat':v>0?'up':v<0?'dn':'flat';
+const sgn=(v,d=0)=>v==null?'—':(v>0?'+':'')+v.toLocaleString('zh-TW',{minimumFractionDigits:d,maximumFractionDigits:d});
+const fmt=(v,d=0)=>v==null?'—':v.toLocaleString('zh-TW',{minimumFractionDigits:d,maximumFractionDigits:d});
+const md=s=>s?s.slice(5).replace('-','/'):'';
+function ago(iso){
+  if(!iso)return '';
+  const m=Math.round((Date.now()-new Date(iso))/6e4);
+  if(m<1)return '剛剛'; if(m<60)return m+' 分鐘前'; if(m<1440)return Math.floor(m/60)+' 小時前';
+  return Math.floor(m/1440)+' 天前';
+}
+const updated=iso=>iso?'更新 '+iso.slice(5,16).replace('T',' ').replace('-','/'):'';
+
+/* ---------- 籌碼 ---------- */
+function renderChip(L,S){
+  const out=[];
+  const row=(label,v,c,d=0,unit='')=>`<div class="l">${label}</div><div class="v ${cls(v)}">${sgn(v,d)}${unit}</div><div class="c">${c??''}</div>`;
+  if(L.inst){const i=L.inst;
+    out.push(`<div class="h">現貨三大法人買賣超（億元）<span>${md(i.date)}</span></div>`,
+      row('外資',i.foreign,'',2),row('投信',i.trust,'',2),row('自營商',i.dealer,'',2),row('合計',i.total,'',2));}
+  if(L.futures){const f=L.futures,pv=L.futures_prev||{};
+    const ch=k=>f[k]!=null&&pv[k]!=null?`<span class="${cls(f[k]-pv[k])}">${sgn(f[k]-pv[k])}</span>`:'';
+    out.push(`<div class="h">台指期淨未平倉（口）・較前日<span>${md(f.date)}</span></div>`,
+      row('外資',f.foreign,ch('foreign')),row('投信',f.trust,ch('trust')),row('自營商',f.dealer,ch('dealer')));}
+  if(L.pcr){const p=L.pcr;
+    out.push(`<div class="h">選擇權 Put/Call Ratio（%）<span>${md(p.date)}</span></div>`,
+      `<div class="l">未平倉量比</div><div class="v">${fmt(p.pcr_oi,2)}</div><div class="c"></div>`,
+      `<div class="l">成交量比</div><div class="v">${fmt(p.pcr_vol,2)}</div><div class="c"></div>`);}
+  if(L.margin){const m=L.margin, d=o=>o&&o.today!=null&&o.prev!=null?o.today-o.prev:null;
+    const amt=m.margin_amt, ma=amt?.today!=null?amt.today/1e5:null, mad=d(amt)!=null?d(amt)/1e5:null;
+    out.push(`<div class="h">信用交易・較前日<span>${md(m.date)}</span></div>`,
+      `<div class="l">融資餘額（億元）</div><div class="v">${fmt(ma,2)}</div><div class="c ${cls(mad)}">${sgn(mad,2)}</div>`,
+      `<div class="l">融資（張）</div><div class="v">${fmt(m.margin_lots?.today)}</div><div class="c ${cls(d(m.margin_lots))}">${sgn(d(m.margin_lots))}</div>`,
+      `<div class="l">融券（張）</div><div class="v">${fmt(m.short_lots?.today)}</div><div class="c ${cls(d(m.short_lots))}">${sgn(d(m.short_lots))}</div>`);}
+  $('#chip').innerHTML=out.length?out.join(''):'<p class="empty" style="grid-column:1/-1">還沒有籌碼資料。盤後排程執行後會出現。</p>';
+  $('#chipFresh').textContent=updated(L.updated);
+  renderSpark((S.futures||[]).filter(r=>r.foreign!=null).slice(-60));
+}
+function renderSpark(rows){
+  const svg=$('#spark'); if(rows.length<3){svg.hidden=true;return;}
+  const W=400,H=120,pl=4,pr=56,pt=18,pb=18, vs=rows.map(r=>r.foreign);
+  let lo=Math.min(0,...vs),hi=Math.max(0,...vs); if(hi===lo)hi=lo+1;
+  const x=i=>pl+i*(W-pl-pr)/(rows.length-1), y=v=>pt+(hi-v)*(H-pt-pb)/(hi-lo);
+  const pts=vs.map((v,i)=>`${x(i).toFixed(1)},${y(v).toFixed(1)}`).join(' ');
+  const last=vs[vs.length-1], c=last>=0?'var(--up)':'var(--down)';
+  svg.innerHTML=`<text x="${pl}" y="11">外資台指期淨未平倉（近 ${rows.length} 個交易日）</text>
+    <line x1="${pl}" x2="${W-pr}" y1="${y(0)}" y2="${y(0)}" stroke="var(--line)" stroke-dasharray="3 3"/>
+    <text x="${W-pr+6}" y="${y(0)+3}">0</text>
+    <polygon points="${x(0)},${y(0)} ${pts} ${x(rows.length-1)},${y(0)}" fill="${c}" opacity=".12"/>
+    <polyline points="${pts}" fill="none" stroke="${c}" stroke-width="1.6" stroke-linejoin="round"/>
+    <circle cx="${x(rows.length-1)}" cy="${y(last)}" r="3" fill="${c}"/>
+    <text x="${W-pr+6}" y="${y(last)+4}" style="fill:${c};font-weight:600">${sgn(last)}</text>
+    <text x="${pl}" y="${H-4}">${md(rows[0].date)}</text>
+    <text x="${W-pr}" y="${H-4}" text-anchor="end">${md(rows[rows.length-1].date)}</text>`;
+  svg.hidden=false;
+}
+
+/* ---------- 行情 ---------- */
+function renderQuotes(L){
+  const q=L.quotes||[]; if(!q.length){$('#quotes').innerHTML='<p class="empty">還沒有行情資料。</p>';return;}
+  const groups=[...new Set(q.map(r=>r.grp))];
+  $('#quotes').innerHTML=groups.map(g=>`<div class="qgrp"><h3>${g}</h3><div class="qs">${q.filter(r=>r.grp===g).map(r=>{
+    const d=r.last>=1000?0:r.last>=100?1:2;
+    return `<div class="q" title="${esc(r.sym)} · ${esc(r.date)}"><div class="nm">${esc(r.name)}</div><div class="px">${fmt(r.last,d)}</div><div class="ch ${cls(r.chg)}">${sgn(r.chg,d)}（${sgn(r.pct,2)}%）</div></div>`;
+  }).join('')}</div></div>`).join('');
+  $('#qFresh').textContent=updated(L.updated);
+}
+
+/* ---------- 新聞頭條 ---------- */
+let NEWSDATA={regions:{}}, newsTab=store.get('tab-news','台灣');
+function renderNews(){
+  const regs=Object.keys(NEWSDATA.regions||{}); if(!regs.length)return;
+  const order=['台灣','美國','中國香港','日本','韓國','歐洲'].filter(r=>regs.includes(r));
+  if(!order.includes(newsTab))newsTab=order[0];
+  $('#newsTabs').innerHTML=order.map(r=>`<button type="button" aria-pressed="${r===newsTab}" data-k="${r}">${r}</button>`).join('');
+  const items=NEWSDATA.regions[newsTab]||[];
+  $('#newsList').innerHTML=items.length?items.map(n=>`<li><a href="${esc(n.link)}" target="_blank" rel="noopener">${esc(n.title)}</a><div class="meta"><span>${esc(n.src)}</span><span class="ago">${ago(n.ts)}</span></div></li>`).join(''):'<li class="empty">這個地區目前沒有新聞。</li>';
+  $('#nFresh').textContent=updated(NEWSDATA.updated);
+}
+$('#newsTabs').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;newsTab=b.dataset.k;store.set('tab-news',newsTab);renderNews();});
+
+/* ---------- 每日流程 ---------- */
+const STEPS=[
+ ['盤前 06:00–08:45',[
+  ['06:00','看美股收盤：四大指數、費半、台積電 ADR','https://www.cnbc.com/us-markets/'],
+  ['06:30','美債殖利率、美元指數、VIX、原油','https://www.cnbc.com/bonds/'],
+  ['07:00','台指期夜盤收盤與未平倉','https://www.taifex.com.tw/cht/3/futDailyMarketReport'],
+  ['07:30','國內外頭條、今日經濟數據與法說會','https://tw.investing.com/economic-calendar/'],
+  ['08:00','公開資訊觀測站重大訊息','https://mops.twse.com.tw/'],
+  ['08:30','亞股期貨、日韓開盤前動向','https://tw.investing.com/indices/indices-futures'],
+ ]],
+ ['盤中 08:45–13:45',[
+  ['08:45','台指期開盤，觀察開盤價與夜盤落差','https://www.taifex.com.tw/cht/3/futDailyMarketReport'],
+  ['09:00','現股開盤、日韓股與人民幣走勢','https://tw.stock.yahoo.com/'],
+  ['12:00','注意股、處置股公告','https://www.twse.com.tw/zh/announcement/notice.html'],
+  ['13:25','收盤集合競價','https://tw.stock.yahoo.com/'],
+ ]],
+ ['盤後 13:45–22:00',[
+  ['約15:00','期貨三大法人未平倉','https://www.taifex.com.tw/cht/3/futContractsDate'],
+  ['約15:00','選擇權買賣權分計、P/C Ratio','https://www.taifex.com.tw/cht/3/pcRatio'],
+  ['約15:00','大額交易人未沖銷部位','https://www.taifex.com.tw/cht/3/largeTraderFutQry'],
+  ['約15:00','上市三大法人買賣金額','https://www.twse.com.tw/zh/trading/foreign/bfi82u.html'],
+  ['約16:00','個股三大法人買賣超','https://www.twse.com.tw/zh/trading/foreign/t86.html'],
+  ['約21:00','融資融券餘額','https://www.twse.com.tw/zh/trading/margin/mi-margn.html'],
+  ['約21:00','借券賣出餘額','https://www.twse.com.tw/zh/trading/margin/twt93u.html'],
+  ['21:30','美股開盤（冬令 22:30）、美國經濟數據','https://www.cnbc.com/us-markets/'],
+ ]]
+];
+const dayKey=()=>{const p=partsIn('Asia/Taipei');return `chk-${p.y}-${p.m}-${p.d}`};
+function renderSteps(){
+  const done=store.get(dayKey(),{}); let i=0;
+  $('#steps').innerHTML=STEPS.map(([stage,items])=>`<div class="stage">${stage}</div>`+items.map(([tm,tx,url])=>{
+    const id='s'+(i++), on=!!done[id];
+    return `<label class="chk${on?' done':''}" for="${id}"><input type="checkbox" id="${id}" ${on?'checked':''}><span class="tm">${tm}</span><span class="tx"><a href="${url}" target="_blank" rel="noopener">${tx}</a></span></label>`;
+  }).join('')).join('');
+}
+$('#steps').addEventListener('change',e=>{
+  if(e.target.type!=='checkbox')return;
+  const o=store.get(dayKey(),{}); o[e.target.id]=e.target.checked; store.set(dayKey(),o);
+  e.target.closest('label').classList.toggle('done',e.target.checked);
+});
+$('#resetChk').addEventListener('click',()=>{store.set(dayKey(),{});renderSteps();});
+
+/* ---------- 資料與媒體連結 ---------- */
+const LINKS={
+ '現貨籌碼':[
+  ['上市',[
+   ['三大法人買賣金額','外資、投信、自營商當日合計','https://www.twse.com.tw/zh/trading/foreign/bfi82u.html','約15:00'],
+   ['個股三大法人買賣超','T86，找法人連買標的','https://www.twse.com.tw/zh/trading/foreign/t86.html','約16:00'],
+   ['融資融券餘額','散戶槓桿、券資比','https://www.twse.com.tw/zh/trading/margin/mi-margn.html','約21:00'],
+   ['借券賣出餘額','空方籌碼','https://www.twse.com.tw/zh/trading/margin/twt93u.html','約21:00'],
+   ['外資持股比率','個股外資持股與上限','https://www.twse.com.tw/zh/trading/foreign/mi-qfiis.html'],
+   ['當日沖銷交易標的','當沖比與成交統計','https://www.twse.com.tw/zh/trading/day-trading/twtb4u.html'],
+   ['每日收盤行情','大盤與類股指數、成交量','https://www.twse.com.tw/zh/trading/historical/mi-index.html'],
+  ]],
+  ['上櫃與股權',[
+   ['櫃買中心','上櫃三大法人、融資券、行情','https://www.tpex.org.tw/'],
+   ['集保股權分散表','每週大戶、散戶持股變化','https://www.tdcc.com.tw/portal/zh/smWeb/qryStock','週五'],
+  ]],
+ ],
+ '期權籌碼':[
+  ['台灣期貨交易所',[
+   ['期貨三大法人','外資台指期淨未平倉','https://www.taifex.com.tw/cht/3/futContractsDate','約15:00'],
+   ['選擇權買賣權分計','法人 Call / Put 部位','https://www.taifex.com.tw/cht/3/callsAndPutsDate','約15:00'],
+   ['Put/Call Ratio','市場多空情緒','https://www.taifex.com.tw/cht/3/pcRatio','約15:00'],
+   ['大額交易人未沖銷','前五大、前十大特定法人','https://www.taifex.com.tw/cht/3/largeTraderFutQry','約15:00'],
+   ['期貨每日行情','日盤、夜盤、各月份價量','https://www.taifex.com.tw/cht/3/futDailyMarketReport'],
+   ['選擇權每日行情','各履約價權利金與未平倉','https://www.taifex.com.tw/cht/3/optDailyMarketReport'],
+  ]],
+ ],
+ '公告基本面':[
+  ['公司資訊',[
+   ['公開資訊觀測站','重大訊息、月營收、財報、法說會','https://mops.twse.com.tw/'],
+   ['注意股公告','注意交易資訊','https://www.twse.com.tw/zh/announcement/notice.html'],
+   ['處置股公告','分盤撮合、預收款券','https://www.twse.com.tw/zh/announcement/punish.html'],
+  ]],
+  ['產業',[
+   ['TrendForce','半導體、記憶體、面板報價與研究','https://www.trendforce.com/news/'],
+   ['DigiTimes','台灣供應鏈新聞','https://www.digitimes.com.tw/','部分付費'],
+  ]],
+ ],
+ '台灣總經':[
+  ['官方數據',[
+   ['中央銀行','利率決議、外匯存底、新台幣','https://www.cbc.gov.tw/tw/mp-1.html'],
+   ['國發會景氣指標','景氣燈號、領先指標','https://index.ndc.gov.tw/n/zh_tw'],
+   ['主計總處統計','GDP、CPI、失業率','https://www.stat.gov.tw/'],
+   ['財政部','進出口貿易統計','https://www.mof.gov.tw/'],
+   ['臺灣銀行牌告匯率','美元、日圓、人民幣即期匯率','https://rate.bot.com.tw/xrt?Lang=zh-TW'],
+  ]],
+ ],
+ '國際行情':[
+  ['美股與風險指標',[
+   ['CNBC 美股','四大指數、個股盤勢','https://www.cnbc.com/us-markets/'],
+   ['CNBC 盤前期貨','美股期貨即時','https://www.cnbc.com/pre-markets/'],
+   ['CNN Fear & Greed','美股情緒指標','https://www.cnn.com/markets/fear-and-greed'],
+   ['Finviz 熱力圖','S&P 500 板塊漲跌','https://finviz.com/map.ashx'],
+   ['全球指數期貨','日經、韓股、A50、美股期','https://tw.investing.com/indices/indices-futures'],
+   ['大宗商品','原油、黃金、銅','https://tw.investing.com/commodities/'],
+  ]],
+ ],
+ '日曆央行':[
+  ['行事曆',[
+   ['經濟日曆','全球數據公布時間與預期值','https://tw.investing.com/economic-calendar/'],
+   ['CME FedWatch','聯準會利率機率','https://www.cmegroup.com/markets/interest-rates/cme-fedwatch-tool.html'],
+   ['財報日曆','美股財報公布','https://tw.investing.com/earnings-calendar/'],
+  ]],
+  ['各國央行',[
+   ['美國聯準會','新聞稿與 FOMC 聲明','https://www.federalreserve.gov/newsevents/pressreleases.htm'],
+   ['歐洲央行','利率決議','https://www.ecb.europa.eu/press/pr/html/index.en.html'],
+   ['日本銀行','貨幣政策會議','https://www.boj.or.jp/en/'],
+  ]],
+ ],
+ '新聞媒體':[
+  ['台灣',[
+   ['鉅亨網','台股、國際盤即時新聞','https://news.cnyes.com/news/cat/headline'],
+   ['經濟日報','產業與市場深度報導','https://money.udn.com/money/index'],
+   ['工商時報','產業、財經','https://www.ctee.com.tw/'],
+   ['MoneyDJ 理財網','即時新聞與產業資料','https://www.moneydj.com/'],
+  ]],
+  ['國際',[
+   ['Reuters Markets','路透即時財經','https://www.reuters.com/markets/'],
+   ['Bloomberg Markets','彭博','https://www.bloomberg.com/markets','部分付費'],
+   ['WSJ Markets','華爾街日報','https://www.wsj.com/finance','部分付費'],
+   ['Financial Times','金融時報','https://www.ft.com/markets','部分付費'],
+   ['財新','中國深度財經','https://www.caixin.com/','部分付費'],
+   ['日經中文網','日本經濟中文版','https://zh.cn.nikkei.com/'],
+   ['KED Global','韓國經濟新聞英文版','https://www.kedglobal.com/'],
+  ]],
+ ],
+};
+const lstate={tab:store.get('tab-data','全部'),q:''};
+if(lstate.tab!=='全部'&&!LINKS[lstate.tab])lstate.tab='全部';
+const card=([t,d,u,x])=>{
+  const tag=x==='部分付費'?`<span class="tag">部分付費</span>`:x?`<span class="when">${x}</span>`:'';
+  return `<a class="lk" href="${u}" target="_blank" rel="noopener"><b>${esc(t)}${tag}</b><em>${esc(d)}</em></a>`;
+};
+function renderLinks(){
+  $('#dataTabs').innerHTML=['全部',...Object.keys(LINKS)].map(k=>`<button type="button" aria-pressed="${lstate.tab===k}" data-k="${k}">${k}</button>`).join('');
+  const hit=a=>!lstate.q||(a[0]+a[1]).toLowerCase().includes(lstate.q);
+  const cats=lstate.tab==='全部'||lstate.q?Object.keys(LINKS):[lstate.tab];
+  let html='';
+  cats.forEach(c=>LINKS[c].forEach(([g,items])=>{
+    const f=items.filter(hit); if(!f.length)return;
+    html+=`<div class="group"><h3>${c}<span>· ${g}</span></h3><div class="links">${f.map(card).join('')}</div></div>`;
+  }));
+  $('#dataList').innerHTML=html||`<p class="empty">找不到「${esc(lstate.q)}」，換個關鍵字試試。</p>`;
+}
+$('#dataTabs').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;lstate.tab=b.dataset.k;store.set('tab-data',lstate.tab);renderLinks();});
+$('#q').addEventListener('input',e=>{lstate.q=e.target.value.trim().toLowerCase();renderLinks();});
+
+/* ---------- 載入資料 ---------- */
+async function getJSON(p){const r=await fetch(p+'?t='+Date.now(),{cache:'no-store'});if(!r.ok)throw new Error(p+' '+r.status);return r.json();}
+async function loadData(){
+  const [L,S,N]=await Promise.allSettled([getJSON('data/latest.json'),getJSON('data/series.json'),getJSON('data/news.json')]);
+  if(L.status==='fulfilled'){renderChip(L.value,S.status==='fulfilled'?S.value:{});renderQuotes(L.value);}
+  if(N.status==='fulfilled'){NEWSDATA=N.value;renderNews();}
+}
+setInterval(()=>{if(NEWSDATA.updated)renderNews();},60000);
+
+renderTop(); renderMarkets(); renderSteps(); renderLinks(); loadData();
+setInterval(renderTop,1000); setInterval(renderMarkets,30000);
+setInterval(loadData,15*60*1000);
+</script>
+</body>
+</html>
