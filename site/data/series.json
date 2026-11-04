@@ -118,6 +118,13 @@
    "trust": 86998.0,
    "foreign": -91812.0,
    "foreign_trade": -2382.0
+  },
+  {
+   "date": "2026-11-04",
+   "dealer": 0.0,
+   "trust": 0.0,
+   "foreign": 0.0,
+   "foreign_trade": -1860.0
   }
  ],
  "pcr": [
@@ -215,6 +222,11 @@
    "date": "2026-11-03",
    "pcr_vol": 79.99,
    "pcr_oi": 47.77
+  },
+  {
+   "date": "2026-11-04",
+   "pcr_vol": 85.0,
+   "pcr_oi": 49.37
   }
  ],
  "margin": [
