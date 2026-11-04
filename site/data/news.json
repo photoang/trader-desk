@@ -1,7 +1,42 @@
 {
- "updated": "2026-11-05T04:34+08:00",
+ "updated": "2026-11-05T05:28+08:00",
  "regions": {
   "台灣": [
+   {
+    "region": "台灣",
+    "src": "三立新聞",
+    "title": "台股跌成廢半！「這顆」未爆彈成隱患 散戶凹單挫咧等",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1Va3hqNDdVeGhuQ2FybGJfR0VWSXpzMm5HNWU3ZmQzMkllMzNaZzZwVmlFZUpjdi1UbWhWVnA3dGVhVkNQeU4yaGlsSQ?oc=5",
+    "ts": "2026-11-04T21:22:30+00:00"
+   },
+   {
+    "region": "台灣",
+    "src": "鉅亨網",
+    "title": "〈台股盤前要聞〉美國期中選舉民主黨大勝、永豐銀新網銀交易系統安全設定遭駭、研華估明年營收高雙位數成長",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE54ZFR5RWRQeVpjTmF5NUpmTS04bE1yWWxIa3pmRnVPQXlrQTJDT3Q4VlhlbW1xcUpfcEZGSVk2dVFyU0JiSWxJNGNEMF8xRlE?oc=5",
+    "ts": "2026-11-04T21:16:20+00:00"
+   },
+   {
+    "region": "台灣",
+    "src": "永豐金證券",
+    "title": "【1104台股盤後】大V轉拉出千點下影線！融資追繳宣洩恐慌，避險資金鎖定主本比【台玻】、【大甲】、【力新】",
+    "link": "https://news.google.com/rss/articles/CBMiyARBVV95cUxPUGk0Y05vQ1k0d2w5amE2MXAteU9XTzNLVkF0S2VzZS10VWo0aUZlQTltMWJVa0d5dXBQaGFLT0tXLVJ3RlBQM1BLcExpQzQ4LUdSVkRVV2U2NHZfTkhneTFrandrdjVsbE5NRjBRNVhmMlZ4M29WNEtUT0pCTEFVQi1GZ0ZyS3lnbGR1UkhvaWpsd0pUcHBaWDh4MWc0ODk0OTkySVpGbFpwQzc1OHJ3RUNjNTFXdHFvR1BncVpzODBUZmZtRzEwYWhfUlNkWWtqT3dBSWlEemlyUWl4SHZvNldhYmI0VTY2WFJMZXZmdzc2RmFYREZzbEVsYmo5SDllb29KWjUtUnFYNkJZZnRzdWVia19MdXpaUUlvSVgtU19FTkp3WVpwbXI2ZG9ybVZjbGp1X1NlTlFTLVA1dG5NbktCU0lfWDZJLUx3OHNJb21fSldIbk1QNkJ6TEtjZ0UyRjFMMUk3czFDVlVPZVdLbElfeHdNRFd4cVkxTjdrTUw3SW1RTExzX3Y0VV8xN2FLdnhVLUxLR2YtUWFkQnd4TWlKM0YzdVY4VDVLdnBORWVpdEZ0V2JJOEF0eWFKYkRiUHVrUVNrWHdYY1JnWFlNNnlqMXNnTE5BMFl1bXVlX2NRQk1fSW5tSmRnQlNra2o5S3BHRm5tUWNpd0pFSl8yNkZxWDl5VUlKcXBSRjd2ODlKZlRib1hxSkFrTHNnYy11U05pVUE5R0YxbTV2cWNSZllLTy14NnJ2NkF2RzFNRXNVeFRQWTJ2Tg?oc=5",
+    "ts": "2026-11-04T21:11:15+00:00"
+   },
+   {
+    "region": "台灣",
+    "src": "鉅亨網",
+    "title": "【袁志峰專欄】港股連升4日，技術走勢轉好",
+    "link": "https://news.cnyes.com/news/id/6647116",
+    "ts": "2026-11-04T20:50:03+00:00"
+   },
+   {
+    "region": "台灣",
+    "src": "經濟日報",
+    "title": "美國期中選舉引發市場大震盪 台股五訊號 拚止跌反彈",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8xcUkwZ2t2N0NUQUNBS1pqOWVkMkk4MkI5T0ZMU1FnT3kzQzU2V09tR0xYYXRRUTVsbWRLUTRUVnZyaXVSODJtVWhPVlZfUDNwMzVZdHNsRGVBUdIBX0FVX3lxTFBWS19vMEU5N25rX2pIYVNvaVFoRGpkeTFnWk1uMGE4TWZ3djNBb1U5eU55SlpTXzRMUjNlMWZPbHIxelhpZG1ZcjdISnE2c25oeGJ2c25oT1RYaER3SmpJ?oc=5",
+    "ts": "2026-11-04T20:38:00+00:00"
+   },
    {
     "region": "台灣",
     "src": "Yahoo 股市",
@@ -11,17 +46,17 @@
    },
    {
     "region": "台灣",
+    "src": "Yahoo新聞",
+    "title": "外資週狂砍台股逾1700億元 這3檔賣超近26萬張成苦主！",
+    "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxNTXBFUzNQUnpCTTh5WVJVTjcwUC0yNk40QnRlNTRYTDRUZnRrd0tPeE1ZRWZfZWlvWUlwR3JTVldmLTFqTk9xcXFreEVqS0d2TUQ3WEJ6aXZJanEyR0JYcWRfN0RLVVAzOFk5ck9SRWZhYUlPeWd5ZE8xMGREeHQwN2RSdDRqNmdnVkxiMkV2MHMzQV9SaGtLcDNQUVpkTjVlMlRaZExrRzVNVTRpRjFfRFgyazVUUkNzbEk2UHFQTXlnczhiS2tETFQ1U0dkdHc3WGFoaHM4WXhmbTh3TDNvME9saE1ONVFIVVM4RWJmVDNPS01oc09xdTNKZ04zT2dra1dWR1RJd095cVMwS1g4aFBJUDlNRDJQRHdFOFMxRHB2UGxVbWkyRy12QVgzbUxOdHpVYkRvUFRmVG9PaVJmdzMtNWhucmJqOXVKZTFn?oc=5",
+    "ts": "2026-11-04T20:25:00+00:00"
+   },
+   {
+    "region": "台灣",
     "src": "Yahoo 股市",
     "title": "台股盤中暴殺1451點！達人曝「大舉進場黃金時機」：鎖定2大轉折點",
     "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E7%9B%A4%E4%B8%AD%E6%9A%B4%E6%AE%BA1451%E9%BB%9E-%E9%81%94%E4%BA%BA%E6%9B%9D-%E5%A4%A7%E8%88%89%E9%80%B2%E5%A0%B4%E9%BB%83%E9%87%91%E6%99%82%E6%A9%9F-%E9%8E%96%E5%AE%9A2%E5%A4%A7%E8%BD%89%E6%8A%98%E9%BB%9E-201200819.html",
     "ts": "2026-11-04T20:12:00+00:00"
-   },
-   {
-    "region": "台灣",
-    "src": "中時新聞網",
-    "title": "台股大怒神 外資狂砍1499億元",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ZZ2ZNWWgtbUxmZDMxcGtObHVmdVdMMEJja0tMU2RHOGZ4TXFvUVhDNGRPLXNseHBsUVpQUnVQaVp4bXhvWjhhOGdwblNBdUF1WTZ4UExZWnJac1hRZllrYnJJRTVoYjdjVUE0?oc=5",
-    "ts": "2026-11-04T20:10:00+00:00"
    },
    {
     "region": "台灣",
@@ -151,13 +186,6 @@
    },
    {
     "region": "台灣",
-    "src": "大紀元",
-    "title": "日韓股一度暴跌 台股震盪1885點 收42948點",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBlenk0NUFHZHFVRm9CdzlUd0ZBZWI0UzVHUUlxSmFEUDY5RUd3X0htQ0tYZklMOGdEMkQtdE5YMFdUeTBCSmdHTVZrQ1JTUm4zUHpmRlphSE8zLUczMzNyTtIBZkFVX3lxTE1xOWtWMEdscU90T2Jabk11dHlfbzd3TTFkeC05d2tlbG5ZNXphNl82eUFpNUh2YWZVdngyM08zaWZDZFVwbG1sZmtxTTNTdkNFdnFzQ0NKUnkzY1IwM09iN3c0SEkxZw?oc=5",
-    "ts": "2026-11-04T17:13:00+00:00"
-   },
-   {
-    "region": "台灣",
     "src": "鉅亨網",
     "title": "〈美國期中選舉〉川普想逼降息更難了！參院翻藍替Fed築起防線",
     "link": "https://news.cnyes.com/news/id/6647109",
@@ -172,30 +200,9 @@
    },
    {
     "region": "台灣",
-    "src": "經濟日報",
-    "title": "台股基金 資優生出列 近三月僅20檔繳出正報酬",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBkNGZqTW9BZmpnU0RDY1Nka1VNeTBvX1dXWmlqRVRIS0cxSGJSZVNTRU9ETGc0NzROLVVFNHI2RlRUbjI0bjFvY2RKZ2JKNk5Wazd5MW9VbFlnUdIBX0FVX3lxTE9JVFJUbG9EQTFvZTl4TGJNQVp3UWdFNWR5MHRMQ0Ezb1QxRlFOSFNpbTB0bm1ERTEwRmRzNlQ0dms2ZjNEcmo1WE9ZQkIxSXZRZms1VnJMYmxOMU55Q004?oc=5",
-    "ts": "2026-11-04T16:59:35+00:00"
-   },
-   {
-    "region": "台灣",
-    "src": "經濟日報",
-    "title": "台股商品成交值 撐竿跳",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0dXFuWnpVclR3c2xnNWJzS1lhdUNNVHlaRUNWZF9ta01NMUZ5djRDcnFGb3pNU2t0cks1ZjZlUzhtXzNqWGNTanVMVUMya09IbHZXZ0xXeGxwUdIBX0FVX3lxTE5nOFVyWVg1UEVpM3FXMEc5aGN4TzVxdFhJdFFEYVRORm16Qi1rRjV6UF9WVG5hd1pjYmZoVUJ6RllnOVJISXdaYVF3cC0xVlNMUlluUENYT3AtdXZTZzJN?oc=5",
-    "ts": "2026-11-04T16:47:11+00:00"
-   },
-   {
-    "region": "台灣",
     "src": "Yahoo 股市",
     "title": "台股明天真的有戲？美國大選不確定因素消散　夜盤翻紅了「一度跳漲逾千點」",
     "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%98%8E%E5%A4%A9%E7%9C%9F%E7%9A%84%E6%9C%89%E6%88%B2-%E7%BE%8E%E5%9C%8B%E5%A4%A7%E9%81%B8%E4%B8%8D%E7%A2%BA%E5%AE%9A%E5%9B%A0%E7%B4%A0%E6%B6%88%E6%95%A3-%E5%A4%9C%E7%9B%A4%E7%BF%BB%E7%B4%85%E4%BA%86-%E5%BA%A6%E8%B7%B3%E6%BC%B2%E9%80%BE%E5%8D%83%E9%BB%9E-164240877.html",
-    "ts": "2026-11-04T16:42:40+00:00"
-   },
-   {
-    "region": "台灣",
-    "src": "Yahoo新聞",
-    "title": "台股明天真的有戲？美國大選不確定因素消散 夜盤翻紅了「一度跳漲逾千點」",
-    "link": "https://news.google.com/rss/articles/CBMivwNBVV95cUxOV01lbW9VRURqdGNVbXZlR3N2MXJ2eGlaSDFJRkVIdVp5UWhEaXlNUXlwVmhldlp3RGxYTmx5Mkx5el80Mk94cWc1cWRCcVlKME03ZTY2Y1U4UjFsM1FRZkNZdUNiLS1rYUl0QWFLcWt1R2pDcG1wM2lvMEpvNW10X3pwcDV0YzlZTjFsRXNCREE3eVg0R2VaY3dINm43RFZPVTNxUG50NVFwM2pIdENtRzNPdWpKYXQ1Q0toRWYtdFZ4czlETmctbHVYTWc3cVVuV2RZS3hQUjJkQ1IzdTBwZmx1SlEzWjhNOXNUTTNwaTVUWmgtd3FJUVV0ZUhyRl9kdTQzcDlzcGZWMGtRc1JwMGdDS3lreDk2anFaX3cyblJISEotSnNiNnBic19HdFJrLTFfYk5nQmFxbDdiSWNSbjJsRWRxM3JWQlQyUUxjSVBYYzd5ZlQ3RFNKdkp6LVRPQ2tzbFVyVmR5SnpVSENGbUZNV2RzNnVibV9FOWoyc2xIeTVHOGJmRlBNdG10QUMwcDBhSjEwOVlTVEc1MGFQLXN3blVSNml5c05QQktLU3o5QUZvMmp5Z2ktMk9iTjA?oc=5",
     "ts": "2026-11-04T16:42:40+00:00"
    },
    {
@@ -204,16 +211,121 @@
     "title": "漲價還沒完？美國10月服務業成本還沒全轉嫁 Fed抗通膨難鬆手",
     "link": "https://news.cnyes.com/news/id/6646819",
     "ts": "2026-11-04T16:30:04+00:00"
-   },
-   {
-    "region": "台灣",
-    "src": "Yahoo 股市",
-    "title": "被動台股ETF縮水逾200億元 　3檔人氣台股ETF逆勢向上",
-    "link": "https://tw.news.yahoo.com/%E8%A2%AB%E5%8B%95%E5%8F%B0%E8%82%A1etf%E7%B8%AE%E6%B0%B4%E9%80%BE200%E5%84%84%E5%85%83-3%E6%AA%94%E4%BA%BA%E6%B0%A3%E5%8F%B0%E8%82%A1etf%E9%80%86%E5%8B%A2%E5%90%91%E4%B8%8A-163000301.html",
-    "ts": "2026-11-04T16:30:00+00:00"
    }
   ],
   "美國": [
+   {
+    "region": "美國",
+    "src": "CNBC",
+    "title": "The economy brought Trump back to power. Now it's his downfall",
+    "link": "https://www.cnbc.com/2026/11/04/2026-midterms-trump-economy-iran-war.html",
+    "ts": "2026-11-04T21:24:22+00:00"
+   },
+   {
+    "region": "美國",
+    "src": "MarketWatch",
+    "title": "Big Tech is driving a historic divide in the U.S. stock market",
+    "link": "https://www.marketwatch.com/story/wall-street-veteran-says-these-are-some-of-the-most-unbelievable-charts-he-has-ever-seen-2c78e677?mod=mw_rss_topstories",
+    "ts": "2026-11-04T21:23:00+00:00"
+   },
+   {
+    "region": "美國",
+    "src": "MarketWatch",
+    "title": "Apple cements its status as tech’s biggest heavyweight with the stock’s best day in over a year",
+    "link": "https://www.marketwatch.com/story/apple-cements-its-status-as-techs-biggest-heavyweight-with-the-stocks-best-day-in-over-a-year-c7fd9e6f?mod=mw_rss_topstories",
+    "ts": "2026-11-04T21:17:00+00:00"
+   },
+   {
+    "region": "美國",
+    "src": "CNBC",
+    "title": "Qualcomm stock drops 5% on weak earnings forecast as memory shortage weighs on smartphone sales",
+    "link": "https://www.cnbc.com/2026/11/04/qualcomm-qcom-earnings-report-q4-2026.html",
+    "ts": "2026-11-04T21:16:30+00:00"
+   },
+   {
+    "region": "美國",
+    "src": "MarketWatch",
+    "title": "‘I have no financial safety net’: I’m 66, rely on Social Security and have $500 in savings. What politician speaks for me?",
+    "link": "https://www.marketwatch.com/story/i-have-no-financial-safety-net-im-66-rely-on-social-security-and-have-500-in-savings-what-politician-speaks-for-me-be2126cb?mod=mw_rss_topstories",
+    "ts": "2026-11-04T21:16:00+00:00"
+   },
+   {
+    "region": "美國",
+    "src": "MarketWatch",
+    "title": "Hospital stocks rallied while drugmakers brace for scrutiny. Here’s what the Democratic wave means for healthcare.",
+    "link": "https://www.marketwatch.com/story/hospital-stocks-rally-while-drugmakers-brace-for-scrutiny-heres-what-the-democratic-wave-means-for-healthcare-625b79f3?mod=mw_rss_topstories",
+    "ts": "2026-11-04T21:10:00+00:00"
+   },
+   {
+    "region": "美國",
+    "src": "MarketWatch",
+    "title": "Billionaires aren’t off the hook for higher taxes, even if they did dodge California’s wealth tax",
+    "link": "https://www.marketwatch.com/story/billionaires-arent-off-the-hook-for-higher-taxes-even-if-they-did-dodge-californias-wealth-tax-a73f9045?mod=mw_rss_topstories",
+    "ts": "2026-11-04T21:10:00+00:00"
+   },
+   {
+    "region": "美國",
+    "src": "MarketWatch",
+    "title": "Three things that explain what’s changing with Obamacare in 2027",
+    "link": "https://www.marketwatch.com/story/three-things-that-explain-whats-changing-with-obamacare-in-2027-7c94585b?mod=mw_rss_topstories",
+    "ts": "2026-11-04T21:09:00+00:00"
+   },
+   {
+    "region": "美國",
+    "src": "CNBC",
+    "title": "E.l.f. Beauty posts 51% sales increase, raises full-year guidance",
+    "link": "https://www.cnbc.com/2026/11/04/elf-beauty-elf-q2-2027-earnings.html",
+    "ts": "2026-11-04T21:06:02+00:00"
+   },
+   {
+    "region": "美國",
+    "src": "MarketWatch",
+    "title": "CVS Health plans to split in two. Here’s what is driving the massive healthcare breakup.",
+    "link": "https://www.marketwatch.com/story/cvs-health-plans-to-split-in-two-heres-what-is-driving-the-massive-healthcare-breakup-27c0d6be?mod=mw_rss_topstories",
+    "ts": "2026-11-04T21:06:00+00:00"
+   },
+   {
+    "region": "美國",
+    "src": "CNBC",
+    "title": "Wayfair sales jump 10% as furniture retailer says it's winning share of sluggish market",
+    "link": "https://www.cnbc.com/2026/11/04/wayfair-w-q3-2026-earnings.html",
+    "ts": "2026-11-04T21:04:47+00:00"
+   },
+   {
+    "region": "美國",
+    "src": "CNBC",
+    "title": "CVS to split off drugstore business in major breakup of healthcare giant; shares fall 10%",
+    "link": "https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html",
+    "ts": "2026-11-04T21:04:13+00:00"
+   },
+   {
+    "region": "美國",
+    "src": "CNBC",
+    "title": "McDonald's stock rises as earnings beat, U.S. restaurants show improvement",
+    "link": "https://www.cnbc.com/2026/11/04/mcdonalds-is-about-to-report-earnings-heres-what-to-expect.html",
+    "ts": "2026-11-04T21:02:53+00:00"
+   },
+   {
+    "region": "美國",
+    "src": "CNBC",
+    "title": "Democrats map out an agenda to address affordability and corruption after midterm sweep",
+    "link": "https://www.cnbc.com/2026/11/04/congressional-democrats-affordability-oversight.html",
+    "ts": "2026-11-04T20:53:19+00:00"
+   },
+   {
+    "region": "美國",
+    "src": "MarketWatch",
+    "title": "Democrats’ big election win revives a difficult Social Security question: Who pays?",
+    "link": "https://www.marketwatch.com/story/democrats-big-election-win-revives-a-difficult-social-security-question-who-pays-17ba9448?mod=mw_rss_topstories",
+    "ts": "2026-11-04T20:47:00+00:00"
+   },
+   {
+    "region": "美國",
+    "src": "MarketWatch",
+    "title": "McDonald’s tests new value menu as fast-food discount wars heat up",
+    "link": "https://www.marketwatch.com/story/mcdonalds-tests-new-value-menu-as-fast-food-discount-wars-heat-up-bfc57caf?mod=mw_rss_topstories",
+    "ts": "2026-11-04T20:41:00+00:00"
+   },
    {
     "region": "美國",
     "src": "CNBC",
@@ -237,20 +349,6 @@
    },
    {
     "region": "美國",
-    "src": "MarketWatch",
-    "title": "The midterm election results are redrawing the map for AI data centers",
-    "link": "https://www.marketwatch.com/story/the-midterm-election-results-are-redrawing-the-map-for-ai-data-centers-8625dc0c?mod=mw_rss_topstories",
-    "ts": "2026-11-04T20:21:00+00:00"
-   },
-   {
-    "region": "美國",
-    "src": "MarketWatch",
-    "title": "As Vistra and other energy stocks slide, some analysts warn of an ‘excessive knee-jerk’ reaction",
-    "link": "https://www.marketwatch.com/story/as-vistra-and-other-energy-stocks-slide-some-analysts-warn-of-an-excessive-knee-jerk-reaction-aece0737?mod=mw_rss_topstories",
-    "ts": "2026-11-04T20:17:00+00:00"
-   },
-   {
-    "region": "美國",
     "src": "CNBC",
     "title": "Why we're kicking CVS out of our Bullpen watchlist. Plus, Intel's CEO makes a stand",
     "link": "https://www.cnbc.com/investingclub/2026/11/04/why-were-kicking-cvs-out-of-our-bullpen-watchlist-plus-intels-ceo-makes-a-stand.html",
@@ -259,30 +357,9 @@
    {
     "region": "美國",
     "src": "CNBC",
-    "title": "Wayfair sales jump 10% as furniture retailer says it's winning share of sluggish market",
-    "link": "https://www.cnbc.com/2026/11/04/wayfair-w-q3-2026-earnings.html",
-    "ts": "2026-11-04T20:04:26+00:00"
-   },
-   {
-    "region": "美國",
-    "src": "MarketWatch",
-    "title": "Microsoft and Amazon combine for a $400 billion market-cap boost — and these factors show why",
-    "link": "https://www.marketwatch.com/story/microsoft-and-amazon-combine-for-a-400-billion-market-cap-boost-and-these-factors-show-why-6655d1a9?mod=mw_rss_topstories",
-    "ts": "2026-11-04T20:04:00+00:00"
-   },
-   {
-    "region": "美國",
-    "src": "CNBC",
     "title": "CVS Health plans to split itself up. Here's why a breakup could make sense now",
     "link": "https://www.cnbc.com/2026/11/04/cvs-health-pharmacy-aetna-split.html",
     "ts": "2026-11-04T19:58:41+00:00"
-   },
-   {
-    "region": "美國",
-    "src": "CNBC",
-    "title": "Democrats take Congress in a blue wave. Here's what it means for your money",
-    "link": "https://www.cnbc.com/2026/11/04/blue-wave-democrats-control-congress-your-money.html",
-    "ts": "2026-11-04T19:53:55+00:00"
    },
    {
     "region": "美國",
@@ -301,23 +378,9 @@
    {
     "region": "美國",
     "src": "CNBC",
-    "title": "McDonald's stock rises as earnings beat, U.S. restaurants show improvement",
-    "link": "https://www.cnbc.com/2026/11/04/mcdonalds-is-about-to-report-earnings-heres-what-to-expect.html",
-    "ts": "2026-11-04T19:47:32+00:00"
-   },
-   {
-    "region": "美國",
-    "src": "CNBC",
     "title": "Hyperscalers and Apple surge after election results remove investor uncertainty",
     "link": "https://www.cnbc.com/2026/11/04/apple-and-other-big-tech-stocks-surge-after-2026-midterm-elections.html",
     "ts": "2026-11-04T19:37:43+00:00"
-   },
-   {
-    "region": "美國",
-    "src": "MarketWatch",
-    "title": "4 market-moving issues investors should watch now that the midterms are over",
-    "link": "https://www.marketwatch.com/story/4-market-moving-issues-investors-should-watch-now-that-the-midterms-are-over-9a77b3de?mod=mw_rss_topstories",
-    "ts": "2026-11-04T19:12:00+00:00"
    },
    {
     "region": "美國",
@@ -329,58 +392,9 @@
    {
     "region": "美國",
     "src": "CNBC",
-    "title": "Democrats map out an agenda to address affordability and corruption after midterm sweep",
-    "link": "https://www.cnbc.com/2026/11/04/congressional-democrats-affordability-oversight.html",
-    "ts": "2026-11-04T19:00:52+00:00"
-   },
-   {
-    "region": "美國",
-    "src": "MarketWatch",
-    "title": "SpaceX’s Qualcomm deal could be a precursor to a telecom takeover",
-    "link": "https://www.marketwatch.com/story/qualcomm-sat-out-the-semiconductor-rally-can-a-spacex-partnership-change-that-5bb4c0b2?mod=mw_rss_topstories",
-    "ts": "2026-11-04T18:57:00+00:00"
-   },
-   {
-    "region": "美國",
-    "src": "CNBC",
     "title": "Trump hammers Fox News, blaming network for GOP losses as ratings slide",
     "link": "https://www.cnbc.com/2026/11/04/trump-fox-news-gop-midterm-losses.html",
     "ts": "2026-11-04T18:37:11+00:00"
-   },
-   {
-    "region": "美國",
-    "src": "MarketWatch",
-    "title": "‘I have no financial safety net’: I’m 66, rely on Social Security and have $500 in savings. What politician speaks for me?",
-    "link": "https://www.marketwatch.com/story/i-have-no-financial-safety-net-im-66-rely-on-social-security-and-have-500-in-savings-what-politician-speaks-for-me-be2126cb?mod=mw_rss_topstories",
-    "ts": "2026-11-04T18:37:00+00:00"
-   },
-   {
-    "region": "美國",
-    "src": "CNBC",
-    "title": "CVS to split off drugstore business in major breakup of healthcare giant; shares fall 10%",
-    "link": "https://www.cnbc.com/2026/11/04/cvs-to-split-off-drugstore-business.html",
-    "ts": "2026-11-04T18:35:35+00:00"
-   },
-   {
-    "region": "美國",
-    "src": "MarketWatch",
-    "title": "These stocks have soared the most today after the Democrats trounced Trump",
-    "link": "https://www.marketwatch.com/story/these-stocks-have-soared-the-most-today-after-the-democrats-trounced-trump-9d785314?mod=mw_rss_topstories",
-    "ts": "2026-11-04T18:29:00+00:00"
-   },
-   {
-    "region": "美國",
-    "src": "MarketWatch",
-    "title": "These 12 stocks are good bets to beat the 10-year Treasury over the next decade",
-    "link": "https://www.marketwatch.com/story/these-12-stocks-are-good-bets-to-beat-the-10-year-treasury-over-the-next-decade-cc4f308b?mod=mw_rss_topstories",
-    "ts": "2026-11-04T18:03:00+00:00"
-   },
-   {
-    "region": "美國",
-    "src": "MarketWatch",
-    "title": "Watch out for Big Tech companies like Meta and Alphabet issuing more shares and diluting your stock ownership",
-    "link": "https://www.marketwatch.com/story/watch-out-for-big-tech-companies-like-meta-and-alphabet-issuing-more-shares-and-diluting-your-stock-ownership-283e8c96?mod=mw_rss_topstories",
-    "ts": "2026-11-04T17:44:00+00:00"
    },
    {
     "region": "美國",
@@ -409,23 +423,23 @@
     "title": "Prologis CEO says warehouse demands are shifting fast. Here's how he's keeping up",
     "link": "https://www.cnbc.com/2026/11/04/prologis-ceo-says-warehouse-demands-are-shifting-how-hes-keeping-up.html",
     "ts": "2026-11-04T15:22:59+00:00"
-   },
-   {
-    "region": "美國",
-    "src": "CNBC",
-    "title": "Caitlin Clark signs as first-ever brand partner with Dick's and Foot Locker",
-    "link": "https://www.cnbc.com/2026/11/04/caitlin-clark-signs-as-first-brand-partner-with-dicks-foot-locker-.html",
-    "ts": "2026-11-04T15:00:01+00:00"
-   },
-   {
-    "region": "美國",
-    "src": "CNBC",
-    "title": "AI data center stocks and Musk's SpaceX decline as Texas governor result raises risks of a slowdown",
-    "link": "https://www.cnbc.com/2026/11/04/ai-stocks-texas-governor-data-centers.html",
-    "ts": "2026-11-04T14:43:57+00:00"
    }
   ],
   "中國香港": [
+   {
+    "region": "中國香港",
+    "src": "股市報價& 財經新聞",
+    "title": "A股晚間熱點 | 美國中期選舉落地 全球股市集體大漲 作者 智通財經 - Investing.com 香港",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9uREx4LVJKLU5kcThkUjBpTmQ5XzA1dm1RRjBfdDlBQkpKS2xaUFluY1pDWUQ3VDlZU2dhb09MQnVjS0RQSF9lUktrOUZEVFZkRnloRnFvOHJEb2xsWkJYZXUydktoWlA2aVY5cDQwNkI?oc=5",
+    "ts": "2026-11-04T21:20:35+00:00"
+   },
+   {
+    "region": "中國香港",
+    "src": "鉅亨網",
+    "title": "【袁志峰專欄】港股連升4日，技術走勢轉好",
+    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5teDFteUcxN1pTcWdJVU9DRm05bE5qV0RmUlpNdnlNOE9naDIwelBlczVxZ3c2SmV1XzN0M0liSnN1UGlhZnJ3UFJySU1UUHM?oc=5",
+    "ts": "2026-11-04T20:49:54+00:00"
+   },
    {
     "region": "中國香港",
     "src": "大公文匯網",
@@ -449,10 +463,10 @@
    },
    {
     "region": "中國香港",
-    "src": "股市報價& 財經新聞",
-    "title": "A股晚間熱點 | 美國中期選舉落地 全球股市集體大漲 作者 智通財經 - Investing.com 香港",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9uREx4LVJKLU5kcThkUjBpTmQ5XzA1dm1RRjBfdDlBQkpKS2xaUFluY1pDWUQ3VDlZU2dhb09MQnVjS0RQSF9lUktrOUZEVFZkRnloRnFvOHJEb2xsWkJYZXUydktoWlA2aVY5cDQwNkI?oc=5",
-    "ts": "2026-11-04T15:22:11+00:00"
+    "src": "香港經濟日報HKET",
+    "title": "【港股夜期+ADR+北水】阿里美股高港4% 夜期急彈478點（不斷更新）",
+    "link": "https://news.google.com/rss/articles/CBMilgNBVV95cUxQSVpPOGUzMjV5ZjNCdElHUDliOEQxMmhBbHRjWkV6R3ZKaU96c1VWd2NzX2h3U2ZDY253aFp1bl9NT0lqWURNdHBLQnRVb1lHbnlsdFBDd2lUM0l0YjZ4NnVEV0dKOGxUeUtOZ0xSTFo1dDQ3bnJ5Y19EaHRxM3BEMUozczgwSHJwYncwTnJ2RFZZanpNOGV0QjJoZklDZ0JwMTcwX2toVDJZNHh5YUswRUJ1WGRYUDBNY0VHXzVzS2lUSkh6cjE3TDMzT255T2lDMER2TVJ4bXcwbWJKdnFocWhaVV9pbXNabzlYUHBLTDFYQWUzSG1ndmFEMXYxaFZUN0tlMXQ5TkxDNWxleTRJY2czUkxqTF9HVndKVzNxSEJMYlBwakdSN2JySlZ6NFBEaDRxdUFIVWlBdWl5OVBaR2xFUzhNcTdlbUZLeUlLMnRBN2xXdFpLOUpSWjhULVo0TVhoclY3c2JlY2FDLVlGRkFlMk5nVnVsTUZWMXBDV01zVVVneGRJMkh2WXNJMXV1RkhzdEVR?oc=5",
+    "ts": "2026-11-04T15:25:19+00:00"
    },
    {
     "region": "中國香港",
@@ -467,13 +481,6 @@
     "title": "Democrats’ midterm triumph sends US stocks soaring, but Tesla, SpaceX fall",
     "link": "https://www.scmp.com/business/companies/article/3373309/democrats-midterm-triumph-sends-us-stocks-soaring-tesla-spacex-fall",
     "ts": "2026-11-04T15:06:38+00:00"
-   },
-   {
-    "region": "中國香港",
-    "src": "股市報價& 財經新聞",
-    "title": "港股異動| 萬國黃金集團(03939)午後漲超14% 國際金價重返4000美元上方公司產量有望加速爬坡作者智通財經 - Investing.com 香港",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40MHFpUEdQNk80U0J2b0hCb0ZSMFhMZXVSalNVaF9xbUNFTnNyOVJGQUQzMnlfUXRxWFgyWlVSMDhDRGdJVXA2SUxEamtJMm84M2VTMENudUpLU1ptQzRjcGhRX1EwTzlvMTFfNG93UzE?oc=5",
-    "ts": "2026-11-04T15:06:22+00:00"
    },
    {
     "region": "中國香港",
@@ -509,13 +516,6 @@
     "title": "A股半導體ETF集體漲停 法人：超跌修復非趨勢反轉",
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAydUk1MG1jNFNmQ0d1YUFzaFJiaEFPZFM2VGN0SUdUNlVNdGUxQ1VxV1pSUTR1YXN2ZXNWYkNTeWthNjRWRWc1Ti1USnZnbFc3UGhMWmVOQVg0RzlFZ3dlX2xOdUhDSnd6bjJZMEl2bDFpcGdydkE2QW1R?oc=5",
     "ts": "2026-11-04T13:35:00+00:00"
-   },
-   {
-    "region": "中國香港",
-    "src": "股市報價& 財經新聞",
-    "title": "智通港股解盤 | 民主黨橫掃兩院打消各種疑慮 受益品種全線大反彈 作者 智通財經 - Investing.com 香港",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE03azc3SmhDX3d5aEdkX0ptX0NVSFBraU0wNUkzNVZvQVloS3lYRS1rZkFwZnZ5dk1SUkRRQl9OVDBDUUxuWDBmNF96eE9kZVJTWmNfWjBsYVpIRWRHbWlDUkFhUXZ6Wk9yenM5Y21nMl8?oc=5",
-    "ts": "2026-11-04T13:23:40+00:00"
    },
    {
     "region": "中國香港",
@@ -638,6 +638,13 @@
    }
   ],
   "日本": [
+   {
+    "region": "日本",
+    "src": "三立新聞",
+    "title": "退休金一次砸240萬！65歲老翁自認比存銀行好 半年後翻開存摺心都涼了",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5DUV83Zkd3NFBxZHlpNEVpdFhqbUVlTXNxTzRPZmFTU3p2ajJvRmNXeDExXzZTZk5aTms2MFpqLVNacXhRSjZIOFByRQ?oc=5",
+    "ts": "2026-11-04T21:11:33+00:00"
+   },
    {
     "region": "日本",
     "src": "中時新聞網",
@@ -766,6 +773,13 @@
    },
    {
     "region": "日本",
+    "src": "4Gamers",
+    "title": "日股跳水補跌《FX戰士久留美》作者X發文：是說明天剛好是動畫更新日",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQM01fbmNoZHh0VUhKOXFXQ1RiRHdzY1MweHloaU80ektoak5NWHpuSlcyVzJnampqcm9tUHRSTEF4UEhBSjdneWVtVVh5MXBCUnYzejU2QzBvUFlBODAzZlJYbDZySE5UQnZOT19GdzRmZElGd0tuaW1jUFBqbXcwWm5QRGg5Yjc4c203WTB4eGZ0ZTFLT2J3N2YyeXpDbnVCeFZKbi11T2ExdGFrN3QzS3ZZaWw5a0Q5MTI4?oc=5",
+    "ts": "2026-11-04T09:14:45+00:00"
+   },
+   {
+    "region": "日本",
     "src": "Meet創業小聚",
     "title": "日本半導體供應鏈出資！Taravine首檔基金目標60億日圓，瞄準台灣B輪前半導體、深科技新創",
     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9MM2pGbUU2TGhSXzhrdWh3ZHJ1TlNiUVBxcVVjd1Z1MjI5Q3dPSTJoT0hEZUdpSXl5MFRrVTFrNklLV0dEN2hvaVBZa2ZNdkZnZjlwRW1qOU0?oc=5",
@@ -794,6 +808,13 @@
    },
    {
     "region": "日本",
+    "src": "自由財經",
+    "title": "繼承遺產擁720萬爽退休養老 69歲婦「犯1錯快破產」慘況曝光",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBkd05hSC1QSkplUE5Jd19OQy05RGlUVlNfdkpiNk1nSzhtTTdKbG5fdlpQck5oS2dBdUJpZmd3a3h0TVd0eFUzZGxPdFp4V1Y1UFNPOVIyZENHeVFLdGgw0gFkQVVfeXFMTnVKS0dvMEhBTmgtQVVjOEx3MExvSEJ6R3J2dTZOVzFERHVOYk5tQ0ludGlfaUM5bEhXTG14Z29KaENHRGR6UWNZSnA4b3FnZG12eXB4OFBRbVNDLXdKT2JILU5EMA?oc=5",
+    "ts": "2026-11-04T08:22:42+00:00"
+   },
+   {
+    "region": "日本",
     "src": "中央社 CNA",
     "title": "美期中選舉民主黨占上風衝擊AI股 日經一度暴跌逾3000點",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1pVzZHeEtIM0xFcUVtaEJrQTZXNkV0TE9ZM1FXR0lRaFItVUVyVUwtRGdncnRJS01ZaExKS0V2Q2VXOW1uN29qUGo5eG5NNVU4bEI5NzdrMWt1Uzd1d2c?oc=5",
@@ -808,10 +829,10 @@
    },
    {
     "region": "日本",
-    "src": "自由財經",
-    "title": "亞股大洗三溫暖！韓股急拉近5％翻紅 日經反彈2158點收跌893點",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB6ZGpfeHpmSmp6cFdCTkJiSmIxRGdacW5JTTQ2OGVRa1BmWGVySDY0UEVEYnBsY3Fvb1AwbDFZTnMyclVCYURXeXp1V1dRRmpZWTQ5MDZ6U1V1d0pORHNV0gFkQVVfeXFMTnd0cEVhLTBxV3FiYnZ6a1VvaVFlZjNnV2xPWDdfamlXeE1tampJckstTFhsTVl2MjdINGRodzFuUVdnLTEzQWl6Z3RoUnAwS0dJQzU2MmZ5VjdaZ2RlbjI5a1VkRg?oc=5",
-    "ts": "2026-11-04T07:10:00+00:00"
+    "src": "Yahoo股市",
+    "title": "川普臉跟台股一樣綠！台日韓股市大逃殺、日股狂瀉2246點...美國期中選舉開票恐變天",
+    "link": "https://news.google.com/rss/articles/CBMi5gNBVV95cUxOWjNLYjA2Szc1U2hSYk5oLXJFalBoQlF0QThydWFZN3BpYUVhekZIWEhNYWM2SFVKRElRczZhTzNCcXBKRWJhZTJpT0dwV3VfMFpKLWxnQTR3eFBoRXl2Nl9kUlVmNE1DOE9SNDFUYnJjVTNuOUZ0RXFBWDFXaC1XNUVrVHE0OEg4NUo1ZThvNXlHTXN3RWdRQ3FSQjlTcXI4RzVDWVBPWnlQeF9PZEc4M2g5bWR2V3NQQmo4SjczYUJZcUhvazQ3YXoyNklkb0dXNGJ0SUNKZF8tYlJwZnRGdWZFaktHeTdNTkpvclRUOXlpcU81TlR1N2VqWGh6ODRseVhhM3JhN19rNmJwc2VfZzFfTWZBU3QxMDVmTm5pZl9RSThJYU5PcDB4MFVrMFhpcURPU3p0VHYzTkFlWF9xZnI2VXBEclJGbTJkM2lhc1p2QlQ2TWFEdEpZN1RFNHNSVnl0MVk5dEt0cER2UFU3VnZVLVUwX3hmdjFYZDY4bC05c3FQRFhFeUVGV3VTajkyTlZTMkluU000MlJzYWV5WXQ4Rjl3S195VzZ0MXNfMlJzVmNhUlZXTENubEYwMFE2SG1CRG5DMGtQZ0JSLWJvZHYxZ3dGeVQxMW9vQVM2Ty0tSDJ6VVE?oc=5",
+    "ts": "2026-11-04T06:55:07+00:00"
    },
    {
     "region": "日本",
@@ -826,27 +847,6 @@
     "title": "日圓匯率午後再度走貶，貶至157日圓後半，美國長天期利率止跌回升",
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5yTjJpcVpLMTNNNWdNalFjakdMZTVyanJwVmtoTkRyQmxpM2haRFdGQkVub2U0ZWdTc1EzbUpRVVdmN0hPX1BZSmdocllpQmZrZjRBVnUtZUJ1X3h0dWgtOXRKX2JfdHFGN0JzblQ3VXlRQ1VsU0k3M0dn?oc=5",
     "ts": "2026-11-04T06:05:00+00:00"
-   },
-   {
-    "region": "日本",
-    "src": "鉅亨網",
-    "title": "美國民主黨勝選預期引爆避險潮 日股暴跌 日元走升",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5YTDM4X2RCdEcxTFE5Zy1jbEV0NUpaYklweWo0YzZzUzhWQVpWZU52S3Ztd3NMbWVKZ3Z4RnBKeThaVnJUZVRTYW9iU3V1TnM?oc=5",
-    "ts": "2026-11-04T05:33:49+00:00"
-   },
-   {
-    "region": "日本",
-    "src": "BigGo 財經",
-    "title": "日經平均指數後盤開低走弱，重挫2543點，美國期中選舉與跌破200日線引發看跌預期",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA1NlAwcGk3VTFXUWRYUVpybDkwUmFoYU9tZEp3bHFGRjZoeU9HWFF4RnpjZ1FMcGhhRVdWbnVTWTkwZ1VKSkUyZWprNlFHU2kwcUxwUDBsQTZhUVJ1ZWtRNndJWFFZeFAyc0JtUkJZYjFHY3N5QVVPNUp3?oc=5",
-    "ts": "2026-11-04T04:35:00+00:00"
-   },
-   {
-    "region": "日本",
-    "src": "BigGo 財經",
-    "title": "三井物產上修2027財年純益至1.05兆日圓，資源價格走高助攻超越市場預期",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBjMHV0a1pFZDl2QlpQTW1PUWtjcWIxM3Y2azE4ZlBQTDlxcXRqanNYdGxaOUZBalFKTUJHNS1UTS1sZE9QN1RhQ0p3UU1CTkJlWTU0Mzd3UnlFS1h4RU9XQTJ2cm9SNHRhN1FIMjgtQTZyTTAxdmxBQ0xR?oc=5",
-    "ts": "2026-11-04T03:56:00+00:00"
    }
   ],
   "韓國": [
@@ -1148,10 +1148,24 @@
    },
    {
     "region": "歐洲",
+    "src": "www.tmgm.com",
+    "title": "歐元區：停滯性通膨風險與歐洲央行政策走向 – 渣打銀行",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVmFiNFJvT3VaREpfSHRJaTFpeWRoM1ROWExtZGVtM2pTWmtfc21EVXRmcWh6ek5yWHNzbjJqXzhSQ3I1UXFyUDRMQ21sanJpdUFIVGlWM1libGwwX2x3UEZRTEs5N1E4NWxnQTk0TDVWQnhvaUdzTG9iOS1ibmhXcVpkTmdscDc3NklnNUtDNk5wWGhNVkpISVhjRVFNTkJ0c285M3FnWEpuLTdvWkNRWXVBYktCNWJwb2FjVDVYQUhQM1dQ?oc=5",
+    "ts": "2026-11-04T15:04:11+00:00"
+   },
+   {
+    "region": "歐洲",
     "src": "IndexBox",
     "title": "歐元區10月通膨率達4%，創三年多來新高 - 新聞與統計",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdzBKV0tuM3pDdUlsRVFXVEpuNGFYRmxUTi1DQVlvdlhRQS1RTEFYVEp3ZER5ZDNQU1pEREVRem8tWjE0S3hjX2lPNTZxbEpFelEyRXVxVkhNTnlqMS1zU0dGWFh4Q2pzMFZ4UlgyRVBXTnI2VGRHVzJSdlpIaE15SGtGQkJQOEtpalVXNzBjMWwyWGJCVHY0R29Cbk0?oc=5",
     "ts": "2026-11-04T14:00:43+00:00"
+   },
+   {
+    "region": "歐洲",
+    "src": "www.tmgm.com",
+    "title": "歐洲央行：逐步緊縮路徑 – 北歐銀行",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTzhjZXo5WkRoSG8zTWdaLW5SRUdyVGxKMWU0b2NSeHp0U3R0bnZWTjRKNVUwVHdWV1ZUU29GdTNJNEkzdGZjbVVZUjVfclNwLWY3RUlHMHdmUlh0T21tOGpaRG5kX19RTVp0M2YyalZpZTBmMm1hTUN5Qmc2LTVuQ3pMMmllYmhvaWc0TjVHbnZsMTZGM1ZfM0xNZUZuOGtKVHRUbFd1ZmVHY3cwQWNBRkRXb242MFNOa3BV?oc=5",
+    "ts": "2026-11-04T13:31:15+00:00"
    },
    {
     "region": "歐洲",
@@ -1257,20 +1271,6 @@
     "title": "歐元區10月經濟增長放緩至四個月低點 作者 Investing.com - Investing.com 香港",
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE16TnhMRGxTWURyRjQ2UWtYREptaFdXeXMyZ1pRN00xMmFudWI3OHFOQkFSVlBvUEJuM2VESXpvNlJ0Z01uZWkyVDI1VC1nQXhqZmM3Ri1WRVZSOUdPZTJRbktRTjlDTTkzUWpYaWJfQzQ4cEN3Ynd5RlVR?oc=5",
     "ts": "2026-11-04T10:43:39+00:00"
-   },
-   {
-    "region": "歐洲",
-    "src": "CMoney投資網誌",
-    "title": "歐股跳漲！民主黨掌握美國國會推動銀行與清潔能源回歸，諾和諾德業績上修股價飆升",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOMzRGdGNMbktSOTlfb2xmR0tJWURwNExJMlJpUU9Qdjc0bm1PR0pjcGZpREZzMTBVWHVQMENiWS1qT2VmSHVYLXJhOGJoeTNyRUw0V3hKamxwQ1JJdXRwZjF1WUJpUHNnNGIzSC1leDZDblFPV3p2SUhqVjZEZ19nNXlieGxyNFVjcngtcE5n?oc=5",
-    "ts": "2026-11-04T10:39:08+00:00"
-   },
-   {
-    "region": "歐洲",
-    "src": "香港文匯報",
-    "title": "歐元區10月通脹率升至4% 創三年來新高- 財經",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50VmRZTzg3VXdlUXpCcWJaVkJ3eTFlNzhyOFFuY3hNdjRFRmI1bVpGOVpteVdZcGVIX1hpaWNmaS0yclNXalRjVkZqS3owZ0VlbVQ2aHZkU3JSWWJDNEJzaVFHZEZ6VUdiT05rRU5jTXNRTkJhV1JJ?oc=5",
-    "ts": "2026-11-04T10:29:44+00:00"
    }
   ]
  }
