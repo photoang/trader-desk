@@ -1,7 +1,42 @@
 {
- "updated": "2026-11-21T05:34+08:00",
+ "updated": "2026-11-21T06:20+08:00",
  "regions": {
   "台灣": [
+   {
+    "region": "台灣",
+    "src": "鉅亨網",
+    "title": "輝達連七黑！創金融海嘯以來最長連跌紀錄 市值遭Alphabet超車跌至第四",
+    "link": "https://news.cnyes.com/news/id/6668153",
+    "ts": "2026-11-20T22:16:39+00:00"
+   },
+   {
+    "region": "台灣",
+    "src": "鉅亨網",
+    "title": "〈能源盤後〉胡塞武裝威脅攻擊沙國紅海港口！油價尾盤反彈仍難扭轉跌勢 Brent、WTI連3週收黑",
+    "link": "https://news.cnyes.com/news/id/6669556",
+    "ts": "2026-11-20T22:10:04+00:00"
+   },
+   {
+    "region": "台灣",
+    "src": "鉅亨網",
+    "title": "〈美股盤後〉美股大屠殺！AI殺盤全面失控 道瓊標普陷修正區 費半瀉逾10% 輝達、美光暴跌約14%",
+    "link": "https://news.cnyes.com/news/id/6669311",
+    "ts": "2026-11-20T21:49:30+00:00"
+   },
+   {
+    "region": "台灣",
+    "src": "鉅亨網",
+    "title": "〈貴金屬盤後〉黃金崩跌至14個月低點！單週重挫9.4%創8個月最慘紀錄 白銀、鉑金同步走弱",
+    "link": "https://news.cnyes.com/news/id/6669557",
+    "ts": "2026-11-20T21:47:30+00:00"
+   },
+   {
+    "region": "台灣",
+    "src": "Facebook",
+    "title": "【快訊／台股血洗暴跌！證交所董座發聲】 多軍戰友在哪裡～～～ （#豬頭皮）",
+    "link": "https://news.google.com/rss/articles/CBMilgNBVV95cUxNdzExa1NJZ2ZVN3A2WUpLb085eFpoak1hMjVUcEljRk54SFVmVWhyTm5qSTZIdUp6OXc2Yk5SOEdKZFBpTDlIeUVwZUNCZlBpcGx0UjRVQ1VUQzV6dHRKdnNHbEhmYjRQSWNDSmF5UU84NTZTV1ZvOXFNb0dLWnRKc1ByT2piNmZnTjNDSks1ZVN3QS1oODVuSFlvSjJKX3M5X01GNjdHVXZqR1ZRbVh4aUFLV3dsQVRldFVYWm1vS2lfSkhqcGZJek0yTGZLM25ocVB3NmFfcUhPTHJiWFdRbUJrdUJFSk9pbWR5Zmp0MjJTZFZTUXRScEhVT0VQRnZtaGV0YVJwU3F1MWVkQkpfOC1JcjJmRDVocFVzRXJQdGR1LWhManFDM1M0YTRyd2NTUjNibmZ4Sk5wSnE2RlEyNUpNdFY5aFFqUGRxX2YtTVJqM1V2bnhFb19RWE1PUGtfUkxVc1J0NjBlaGhTRGduSTRTc3RBSk1wM3ZBU2pnX1poVmdYX2J5SjJCTUxzRkNCQnByMUpB?oc=5",
+    "ts": "2026-11-20T21:30:48+00:00"
+   },
    {
     "region": "台灣",
     "src": "鉅亨網",
@@ -82,6 +117,13 @@
    {
     "region": "台灣",
     "src": "Yahoo 股市",
+    "title": "台股周跌17.5％ 35年來最慘",
+    "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%91%A8%E8%B7%8C17-5-35%E5%B9%B4%E4%BE%86%E6%9C%80%E6%85%98-201000944.html",
+    "ts": "2026-11-20T20:10:00+00:00"
+   },
+   {
+    "region": "台灣",
+    "src": "Yahoo 股市",
     "title": "百檔高價股鎖跌停！杜金龍買爆「這幾檔低價股」：揭台股止穩關鍵日",
     "link": "https://tw.news.yahoo.com/%E7%99%BE%E6%AA%94%E9%AB%98%E5%83%B9%E8%82%A1%E9%8E%96%E8%B7%8C%E5%81%9C-%E6%9D%9C%E9%87%91%E9%BE%8D%E8%B2%B7%E7%88%86-%E9%80%99%E5%B9%BE%E6%AA%94%E4%BD%8E%E5%83%B9%E8%82%A1-%E6%8F%AD%E5%8F%B0%E8%82%A1%E6%AD%A2%E7%A9%A9%E9%97%9C%E9%8D%B5%E6%97%A5-200500839.html",
     "ts": "2026-11-20T20:05:00+00:00"
@@ -92,13 +134,6 @@
     "title": "貝森特：川習會談未提黃仁勳 重申輝達H200為晶片出口上限",
     "link": "https://news.cnyes.com/news/id/6669308",
     "ts": "2026-11-20T20:00:08+00:00"
-   },
-   {
-    "region": "台灣",
-    "src": "經濟日報",
-    "title": "台股崩跌別慌 16檔國家隊護航股 拚反攻年線 | 市場焦點 | 證券",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9OLTQ3MEM0UEFZYzlEelZuRWpJczA5d1lsYXhxbjlEX0pxRGg3blVYemVZdHdiUGljSnJPUGNORmZVZzFieUJoWThLd2k2RHdzQmlkLXlBSklTdw?oc=5",
-    "ts": "2026-11-20T19:55:42+00:00"
    },
    {
     "region": "台灣",
@@ -176,50 +211,64 @@
     "title": "美中搶AI霸權也有共同底線！川習同意重大軍事行動不能讓AI自主決定",
     "link": "https://news.cnyes.com/news/id/6669579",
     "ts": "2026-11-20T18:30:06+00:00"
-   },
-   {
-    "region": "台灣",
-    "src": "Yahoo 股市",
-    "title": "費半盤中暴跌8％　台積電ADR盤中暴跌30美元　台指期夜盤跌到3萬4千多點",
-    "link": "https://tw.news.yahoo.com/%E8%B2%BB%E5%8D%8A%E7%9B%A4%E4%B8%AD%E6%9A%B4%E8%B7%8C8-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E7%9B%A4%E4%B8%AD%E6%9A%B4%E8%B7%8C30%E7%BE%8E%E5%85%83-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E8%B7%8C%E5%88%B03%E8%90%AC4%E5%8D%83%E5%A4%9A%E9%BB%9E-180024997.html",
-    "ts": "2026-11-20T18:00:24+00:00"
-   },
-   {
-    "region": "台灣",
-    "src": "鉅亨網",
-    "title": "美國通膨預期創9個月新低！11月密大消費信心回升 選後展望轉佳",
-    "link": "https://news.cnyes.com/news/id/6669541",
-    "ts": "2026-11-20T18:00:09+00:00"
-   },
-   {
-    "region": "台灣",
-    "src": "Yahoo 股市",
-    "title": "台股恐慌指數飆破52！超越去年關稅戰收盤高點　財經作家：開始怕了",
-    "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%81%90%E6%85%8C%E6%8C%87%E6%95%B8%E9%A3%86%E7%A0%B452-%E8%B6%85%E8%B6%8A%E5%8E%BB%E5%B9%B4%E9%97%9C%E7%A8%85%E6%88%B0%E6%94%B6%E7%9B%A4%E9%AB%98%E9%BB%9E-%E8%B2%A1%E7%B6%93%E4%BD%9C%E5%AE%B6-%E9%96%8B%E5%A7%8B%E6%80%95%E4%BA%86-173707281.html",
-    "ts": "2026-11-20T17:37:07+00:00"
-   },
-   {
-    "region": "台灣",
-    "src": "鉅亨網",
-    "title": "輝達距高點跌逾4成！近7個交易日蒸發8110億美元 賣壓還沒完？",
-    "link": "https://news.cnyes.com/news/id/6669580",
-    "ts": "2026-11-20T17:30:04+00:00"
-   },
-   {
-    "region": "台灣",
-    "src": "UDN",
-    "title": "台股何時止跌 法人：看權值股能否建立支撐",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1mdklYREpCNzlyLUxwTTNBS1VhUDVyVGVtdDVlQlBqMmN6SXVYVzVSWlUycG95dy1zWVRvdU9rdkZYNU9YTVN1Y2VwNlZtRTkz0gFWQVVfeXFMTmFHZ2lJWnk4cWlRejNaWWpKTkRXMEo5ZHlLNWRnbFZUaTE1b3Vfallwd0J3blhESVVwYW1GYXFnSEFLdGRVQUJkaUwzRFAzLTJONi13R2c?oc=5",
-    "ts": "2026-11-20T17:12:45+00:00"
    }
   ],
   "美國": [
    {
     "region": "美國",
+    "src": "MarketWatch",
+    "title": "Dow, S&P 500 enter correction as Nasdaq suffers worst week since 2020",
+    "link": "https://www.marketwatch.com/story/dow-s-p-500-enter-correction-as-nasdaq-suffers-worst-week-since-2020-bd74dadf?mod=mw_rss_topstories",
+    "ts": "2026-11-20T22:12:00+00:00"
+   },
+   {
+    "region": "美國",
+    "src": "CNBC",
+    "title": "Trump says he discussed Jensen Huang with Xi; Bessent tells CNBC Nvidia chip export policy is unchanged",
+    "link": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html",
+    "ts": "2026-11-20T22:08:41+00:00"
+   },
+   {
+    "region": "美國",
+    "src": "MarketWatch",
+    "title": "Nvidia’s stock clinches a stretch of weekly losses not seen since 2008",
+    "link": "https://www.marketwatch.com/story/nvidias-stock-heads-for-a-stretch-of-weekly-losses-unseen-since-2008-91aba9a6?mod=mw_rss_topstories",
+    "ts": "2026-11-20T21:58:00+00:00"
+   },
+   {
+    "region": "美國",
+    "src": "MarketWatch",
+    "title": "Everyone’s making money off ‘GTA 6’ this week — except investors in Take-Two’s stock",
+    "link": "https://www.marketwatch.com/story/everyones-making-money-off-gta-6-this-week-except-investors-in-take-twos-stock-489ee01b?mod=mw_rss_topstories",
+    "ts": "2026-11-20T21:39:00+00:00"
+   },
+   {
+    "region": "美國",
+    "src": "MarketWatch",
+    "title": "The hidden catch in Anthropic’s IPO: Billions of locked-up shares are waiting in the wings",
+    "link": "https://www.marketwatch.com/story/the-hidden-catch-in-anthropics-ipo-billions-of-locked-up-shares-are-waiting-in-the-wings-279d33ce?mod=mw_rss_topstories",
+    "ts": "2026-11-20T21:39:00+00:00"
+   },
+   {
+    "region": "美國",
+    "src": "MarketWatch",
+    "title": "Micron and Sandisk stocks might look like bargains, but analysts say that’s actually a red flag",
+    "link": "https://www.marketwatch.com/story/micron-and-sandisk-stocks-might-look-like-bargains-but-analysts-say-thats-actually-a-red-flag-da1f1f5d?mod=mw_rss_topstories",
+    "ts": "2026-11-20T21:36:00+00:00"
+   },
+   {
+    "region": "美國",
     "src": "CNBC",
     "title": "Zscaler stock jumps 18% on report that CrowdStrike in talks to buy security vendor",
     "link": "https://www.cnbc.com/2026/11/20/zscaler-crowdstrike-deal.html",
-    "ts": "2026-11-20T21:33:34+00:00"
+    "ts": "2026-11-20T21:35:24+00:00"
+   },
+   {
+    "region": "美國",
+    "src": "MarketWatch",
+    "title": "One thing Thanksgiving travelers can be thankful for: Gas prices are down 75 cents from this year’s peak",
+    "link": "https://www.marketwatch.com/story/one-thing-thanksgiving-travelers-can-be-thankful-for-gas-prices-are-down-75-cents-from-this-years-peak-efac1809?mod=mw_rss_topstories",
+    "ts": "2026-11-20T21:34:00+00:00"
    },
    {
     "region": "美國",
@@ -286,34 +335,6 @@
    },
    {
     "region": "美國",
-    "src": "MarketWatch",
-    "title": "My husband spent $80,000 on a boat, yet says my plans for a $100,000 pottery studio are irresponsible. Who’s right?",
-    "link": "https://www.marketwatch.com/story/my-husband-spent-80-000-on-a-boat-yet-says-my-plans-for-a-100-000-pottery-studio-are-irresponsible-whos-right-1a69436a?mod=mw_rss_topstories",
-    "ts": "2026-11-20T20:31:00+00:00"
-   },
-   {
-    "region": "美國",
-    "src": "MarketWatch",
-    "title": "I’m in my 40s. Should I accept a lower pension in exchange for naming my husband or child as a beneficiary?",
-    "link": "https://www.marketwatch.com/story/im-in-my-40s-should-i-accept-a-lower-pension-in-exchange-for-naming-my-husband-or-child-as-a-beneficiary-b2352059?mod=mw_rss_topstories",
-    "ts": "2026-11-20T20:30:00+00:00"
-   },
-   {
-    "region": "美國",
-    "src": "MarketWatch",
-    "title": "I’m terrified of a market crash. Should I put $400,000 of my $1 million retirement savings into an annuity?",
-    "link": "https://www.marketwatch.com/story/were-in-our-50s-and-terrified-of-a-market-crash-should-we-put-400-000-of-our-1-million-retirement-savings-into-an-annuity-1943f240?mod=mw_rss_topstories",
-    "ts": "2026-11-20T20:30:00+00:00"
-   },
-   {
-    "region": "美國",
-    "src": "MarketWatch",
-    "title": "Nvidia’s stock heads for a stretch of weekly losses not seen since 2008",
-    "link": "https://www.marketwatch.com/story/nvidias-stock-heads-for-a-stretch-of-weekly-losses-unseen-since-2008-91aba9a6?mod=mw_rss_topstories",
-    "ts": "2026-11-20T20:08:00+00:00"
-   },
-   {
-    "region": "美國",
     "src": "CNBC",
     "title": "Intensifying AI rout wipes out Nasdaq's 2026 gains. Alphabet is a tech bright spot",
     "link": "https://www.cnbc.com/investingclub/2026/11/20/ai-rout-wipes-out-nasdaqs-2026-gains-alphabet-is-a-tech-bright-spot.html",
@@ -321,17 +342,10 @@
    },
    {
     "region": "美國",
-    "src": "MarketWatch",
-    "title": "Everyone’s making money off ‘GTA 6’ this week — except investors in Take-Two’s stock",
-    "link": "https://www.marketwatch.com/story/everyones-making-money-off-gta-6-this-week-except-investors-in-take-twos-stock-489ee01b?mod=mw_rss_topstories",
-    "ts": "2026-11-20T20:03:00+00:00"
-   },
-   {
-    "region": "美國",
-    "src": "MarketWatch",
-    "title": "Spooked by Nvidia’s turmoil? Play Grand Theft Auto VI instead of peeking at your 401(k).",
-    "link": "https://www.marketwatch.com/story/nvidia-spooked-me-should-i-sell-my-stocks-or-ride-out-the-market-turmoil-560583c6?mod=mw_rss_topstories",
-    "ts": "2026-11-20T19:53:00+00:00"
+    "src": "CNBC",
+    "title": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
+    "link": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html",
+    "ts": "2026-11-20T19:59:03+00:00"
    },
    {
     "region": "美國",
@@ -346,13 +360,6 @@
     "title": "A massive bearish trade just happened in the chip stocks",
     "link": "https://www.cnbc.com/2026/11/20/a-massive-bearish-trade-just-happened-in-the-chip-stocks.html",
     "ts": "2026-11-20T19:33:31+00:00"
-   },
-   {
-    "region": "美國",
-    "src": "CNBC",
-    "title": "Trump says he discussed Jensen Huang with Xi, apparently contradicting Bessent",
-    "link": "https://www.cnbc.com/2026/11/20/treasury-secretary-scott-bessent.html",
-    "ts": "2026-11-20T19:15:44+00:00"
    },
    {
     "region": "美國",
@@ -416,22 +423,15 @@
     "title": "Anthropic raises $93.5 billion total as underwriters scoop up ‘greenshoe’ overallotment",
     "link": "https://www.cnbc.com/2026/11/20/anthropic-ipo-greenshoe.html",
     "ts": "2026-11-20T14:59:38+00:00"
-   },
-   {
-    "region": "美國",
-    "src": "CNBC",
-    "title": "Bitcoin suffered identical sell-off pattern ahead of Anthropic, SpaceX IPOs — what happens next?",
-    "link": "https://www.cnbc.com/2026/11/20/bitcoin-pre-ipo-selloff-pattern-anthropic-spacex.html",
-    "ts": "2026-11-20T14:34:14+00:00"
    }
   ],
   "中國香港": [
    {
     "region": "中國香港",
-    "src": "明報新聞網",
-    "title": "港股瀉430點今年新低 累跌近兩成瀕「見熊」 - 20261121 - 經濟",
-    "link": "https://news.google.com/rss/articles/CBMi7AJBVV95cUxPMGwzbmxHQnpUSURNR1lZLUVwbjkySjhqT1d1LVdibkowNnhjVmVhcUVXVW02dEFJcF95aG02MW9PM21qcjJoU0tBa3Q3bjlvaThzc0Nmekp5UU0tb3g5X3BHbXN3cXVGVHhCX1VqTTZrb0J4YlVybllHUUN5LUlaeC1VbTd2MFI3YWdpTFFZRTd6ekdXMm5HZGdxTVJONzM2dGtlN3ZhZzA2VElrS3l1MHhlbEFBY2Rra2hNUGRZbThTRTZMdXlyaXZDeDNxaUR3eVJLV0JWdV9xNW5MeXV6czdST1dYaHVfRmdfQ3dzeDRyOWlsczZGaU14MFN2ZzhsdVhyZXRLbW1tdGd3ODVvNFZxX0c2V29hMkFvd0QzMDJTVnJCUFRyZ0NDbG1fd0dINm1BTDVfbDhxRHV3WUtyMDRhZ2U3bXhkVFFGR2VnQmgyclU4VU9xQV9HUExlUUU0YzNSWG5QQ2ZFQXNp?oc=5",
-    "ts": "2026-11-20T20:30:00+00:00"
+    "src": "自由財經",
+    "title": "財經青紅燈》中股步入熊市寒冬",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBfa2JRRmdSTkVtdmJBT25HV0pvSC0zVDFKd1RqalVTOTFLdktnNV9uTW0zRWNNNzJucEg2Q25IZExsVm10U2FwMmtyYk55T3RSMWdrOHNn0gFbQVVfeXFMTkVFZWFTR0hCaFRFTFRmWHV1WWJkNjQ5enNLeDB0NXFpM29JN3RzSllmZVJOamNGY0dHeENBTWVTcTQ3d2JSVFpSUDZ3UHFqRFlWVWM5VVlPX09WOA?oc=5",
+    "ts": "2026-11-20T21:30:00+00:00"
    },
    {
     "region": "中國香港",
@@ -444,14 +444,14 @@
     "region": "中國香港",
     "src": "大紀元",
     "title": "大陸五家A股企業財報涉假 卓然被罰1310萬",
-    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZV3ZOT2RpenpzcDJXTXhBNkd3bG9OdW9nd3JwVllvMy15TmNRS1ZncUVmdFJGN3NJZlVMMkxrX0g2bXE1dzFFNFA3QWprbmxpeHEyZzk3MWtELWtWaXYyTE5n0gFnQVVfeXFMUE9wLXFSM2ZGS1A5X2UtLVVaUEYzTzhvQzhRbV9pcXBlSm56akV3TWpiR2RPZFVub09GWjlyU3M4b0JNUHZzNkxsMEJ0OHZsODY2WE1oYzZLcnZwYW01Zk1uYjU4d0xKSQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBPcC1xUjNmRktQOV9lLS1VWlBGM084b0M4UW1faXFwZUpuempFd01qYkdkT2RVbm9PRlo5clNzOG9CTVB2czZMbDBCdDh2bDg2NlhNaGM2S3J2cGFtNWZNbmI1OHdMSknSAWdBVV95cUxQT3AtcVIzZkZLUDlfZS0tVVpQRjNPOG9DOFFtX2lxcGVKbnpqRXdNamJHZE9kVW5vT0ZaOXJTczhvQk1QdnM2TGwwQnQ4dmw4NjZYTWhjNktydnBhbTVmTW5iNTh3TEpJ?oc=5",
     "ts": "2026-11-20T18:47:00+00:00"
    },
    {
     "region": "中國香港",
     "src": "信報網站",
     "title": "A股18隻主動ETF 偏防守多持內銀",
-    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNWWlfM3daS2ZnWlVxeTA0RVNSUVRuQmc5WXVRaFZFLUVlaTlUTS0xTGhpejNIMUhya3R6MkFLa2lzTmRiTG1mQzByYm9yV3BOSDZwTHBuUExPUnFvRlRQNlBRTVg2Yk8wNFRtOGN5UlZWT2tmd1o1RGkwZXhZUVM5d2Nld3ZJbEtDZTJ2aWJLWDh1N3gxanZkUmp3Qk1TNTRwS3hpTnFicEZkY3BfTjU4ZUZBTnhHR0ROQlNTUmNySUNaakJickZkMEtXWm0wVWZaYnJxVW1GTE1xU1hQZkdneDBnNEw4VDNROHRjWWg2eHgyS2R6ZEE?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOb3dWSUxlWU9oQ3p5NkFTTjZZcTFRaFZBekhFZFd5UmlfeTUzOUJBczZxaWx6TjlzTkhzaTg5blZUSG5mZW5TZGRzdG5ySE50RUlpMDBwcUhxWnhKRnZBNjQ2WkxxLTNUV1AwRkFCeDZBeVQyT1RPZk5BZDVOMEZKWjR4VVlzMmhzX0pudk9oZnlWWkhlcXdvWXBfcXlkTVpxVFdwUnVSVzNJMlc0RzVoSHdSZ192X2FfaHpvQzBtcW1kbEU2S2x2ejNfcEEtYjR6Wkg4LWFFQUxhTHdBeldhd09FRVZXV0dTSF82U0VmajFsRmpBX1E?oc=5",
     "ts": "2026-11-20T18:31:13+00:00"
    },
    {
@@ -477,10 +477,17 @@
    },
    {
     "region": "中國香港",
-    "src": "股市報價& 財經新聞",
-    "title": "A股晚間熱點 | 現貨黃金跌破3600美元關口 多家銀行密集發佈貴金屬業務風險提示 作者 智通財經 - Investing.com 香港",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9UU2lCY1haNXUzNEktcmN4Y1NlU1JjaUVHV1BVUmYzbzNqTXA2Vk4wRENlWnVwQkV4b1NnVXhkekxpUkRnWWVTZUY3RGl6Tnk5dFZoSERyalJJQXRoNHZYcERJbzA1TVJCRlBPMGNXdlY?oc=5",
-    "ts": "2026-11-20T15:17:00+00:00"
+    "src": "TradingView",
+    "title": "A股房地產開發板塊走勢分化",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBPUzVOZDBibGpuN3lJczUxVFRjSU80ZmJXRGh4YmpCOGFBSUwtbm4zVUMxVmRlSGVQQnIySlNlMElSQ1h2QTZkaTIxd3JJWW9MdWE1RlNjcHFSZ1hxQnNtcUNPNS1CVmRJbWc?oc=5",
+    "ts": "2026-11-20T14:39:45+00:00"
+   },
+   {
+    "region": "中國香港",
+    "src": "TradingView",
+    "title": "港股異動丨電力設備股大升 東方電氣升10%、濰柴動力升9% AI算力+全球電網升級雙輪驅動",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1nank4NHRnUm40cExXQjlVSEdqUFJOTXBGUjVERk1GVEd0THdpcE9ldTZ2Y2pia0kxQkJRQXctOXNPcTdyTFVlLWMwUFZ5Q3l4YVhQQjd1WnFNOWMwdk5IMlU4UVNobk5Ranc?oc=5",
+    "ts": "2026-11-20T14:39:45+00:00"
    },
    {
     "region": "中國香港",
@@ -528,7 +535,7 @@
     "region": "中國香港",
     "src": "鉅亨網",
     "title": "亞太股市重挫迎「黑色星期五」 A股與台日韓無一倖免 AI概念股估值面臨重置",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0za1JIbHhMT2ZUcHhTN1BJWTRKZHEyOG1aeHFfUVF6dl9FWDhlNDNraDY1dW5BNlYwbjA4VkpYb0t4blRkQ05BcWZsUjBBcmc?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9hV3lNdjJjbHdLS1VEV3lQZW1rWnpsNEpzWElFa0hLSjBWRkg2UFQ4U3NFdkJCZWRaM2kzZ184TFdzb1RDV2Y1c3lJVQ?oc=5",
     "ts": "2026-11-20T12:40:06+00:00"
    },
    {
@@ -576,13 +583,6 @@
    {
     "region": "中國香港",
     "src": "TradingView",
-    "title": "三一重工(06031.HK)11月20日耗資2967.11萬元回購160萬股A股",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1Ni1UZy1CdzlHckxPRkE1QVdtOFZGY0xlcFBsSVRoS1lOSzFPdUtTZHJVbE5XUVFQOGFydTlmQUlIWVhPZkJ0Y0locm5tYzFnV2VBMXAtSDBDU09NblRxdkFIUlZLdEczRHc?oc=5",
-    "ts": "2026-11-20T10:49:46+00:00"
-   },
-   {
-    "region": "中國香港",
-    "src": "TradingView",
     "title": "璞泰來港股上市獲中國證監會備案",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1WVU00Mmt4OGUyYTRWNzNObHhJWjAtZmMwWU9RWEVCUnNnVUZvNy1EM3ZnQ0FZU2tWbVhsSWdNZWlpSnpUQzVQSWRENUVGaklQUWpGWWxMNGdrdjRNREIxajljV1ViN3pVYnc?oc=5",
     "ts": "2026-11-20T10:38:54+00:00"
@@ -593,13 +593,6 @@
     "title": "港股黑色星期五！恆指重摔430點連四黑 網易財報後崩跌17%",
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFAwemlETnJJOGJqSlp5d2Y1MzU4U2RLeERCMF9sUjVMQlYtMnk2T0dRMDB3UF9QRFlkMC1oMzh6VkkzT1RiUVhuckw1MTZlN0JqNEdEWndiZWZtb2ZmZ1pBUklBVk5DZ2JxMFJjRWtydThYV2swRl9wbXFR?oc=5",
     "ts": "2026-11-20T10:35:00+00:00"
-   },
-   {
-    "region": "中國香港",
-    "src": "CMoney",
-    "title": "網易Q3財報不佳引發港股股價暴跌丁磊：短劇短期對遊戲帶來影響- 股市爆料同學會",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5EdFVkT3VNMGdGUk9sX01tN1Z1TGJ4S2hKMmtsOHRNSG9fR09SY2xRMndVeXlJVkZ5RlhZQjlaRHhFMG1reFZPRDg0WFIyQVJPaUNmT2JvdEM?oc=5",
-    "ts": "2026-11-20T10:31:25+00:00"
    },
    {
     "region": "中國香港",
@@ -614,6 +607,13 @@
     "title": "江西銅業股份(00358.HK)首次回購公司A股股份41.41萬股",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02dk5kRkQ5czJ5MnZWQkhXVXE3VE5Sanh2VWxSbmZ0QXBNZ0tPOWNLLWNqOUlNLWNMVUx4NURzQ284dTB0Um51bnk1LWJKWlg2S19NVmZrdXNnVUc2UHpkYlh3ZTFPZGVZU1E?oc=5",
     "ts": "2026-11-20T10:17:11+00:00"
+   },
+   {
+    "region": "中國香港",
+    "src": "TradingView",
+    "title": "海爾智家(06690.HK)11月20日耗資2149.76萬元回購94萬股A股",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1KNzBXdTdudkVudE9oZXloRGwxZlFka0RUWWV4U1NsV3lybXJYRUxoZER2bzJWbjZfeVNselFpS081UGtlVFNsMjZnNXJXVFZYcU1PWTM0TFczMTBMdE1QUGllWFBaOUZMeXc?oc=5",
+    "ts": "2026-11-20T10:09:42+00:00"
    },
    {
     "region": "中國香港",
@@ -632,18 +632,32 @@
    {
     "region": "中國香港",
     "src": "TradingView",
-    "title": "賽力斯累計斥資9.94億元回購A股股份 以實際行動堅定發展信心",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5SNWRSdXUwWktHUEdUVmJXR1Y5U2ZKN1FRT1JrRUxzLWJLQTJRNnpRSmp0bnI1bzl5UE9ndE5oT1JnNnZkcDZXWXkzSU1LRVFwQ3J4dklEU1QxeW41RjNwc3FiNmJrV0VoNnc?oc=5",
-    "ts": "2026-11-20T09:32:47+00:00"
+    "title": "盛泰集團(605138.SH)：寧波盛泰累計增持1.85%公司A股股份",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84OGdlMDlzMDM4blVSWjB0Yk9nOUd3Z0s5NzN2U0I5Ml8xMDdyRlhXNktiWXRGd3o5ajJDWUhYa1ZDMFE1QW9SQ19NOXJLX0xGYXNhbDBDQnRRaXBfVFFHcVJwb2tqclhNUEE?oc=5",
+    "ts": "2026-11-20T09:59:05+00:00"
    }
   ],
   "日本": [
    {
     "region": "日本",
-    "src": "三立新聞網SETN.com",
-    "title": "兒子新婚想買房！日本老翁本要大方出資 老妻一句話讓他重新盤算",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5zTHNwNEp6WklYWC1zVm9Sa2RZbi1wcEpvajNBeWlFSGF4bUpRRWJIXzd4aXZrT2xhVkE1OUlMa2NqUEx6bG1mZzBfVQ?oc=5",
-    "ts": "2026-11-20T21:08:43+00:00"
+    "src": "BigGo 財經",
+    "title": "美元兌日圓力拚站穩160關卡，AI股走弱引發日圓買盤與美國升息預期相互拉鋸",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE16dGgzczZrSHdwNmZlU3QzZWZEWW1MSzhUOVE3cFFZd0FqcnFSdUplTmRGbVI4Q2s1cVRibl9OQm1pWnBuTXVKV0V5Q0VLeXhybWc3dW4wT3pPWklaYlV2ZG5UdmVsTGMwR0lrdDlsVkhLcDdCM1VKRTV3?oc=5",
+    "ts": "2026-11-20T21:25:00+00:00"
+   },
+   {
+    "region": "日本",
+    "src": "BigGo 財經",
+    "title": "美元8連漲暫歇，日圓反彈至158後半；比特幣跌破6萬美元、為7月以來首見",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBYUEhrSkUyMnVuWjRQWHN4UDlwWFdaWUhfM2dfRVFWTmVpcTQ4dlNRQ3F4TFB6MWhweGFFT0RpZUdOWVRZMU1JTzVOdU01UmFGRkNkajEwOFpsZnZCQi1nenp0R2xFUktXNmFwQ0hxcW9MbmQyM19pbVVR?oc=5",
+    "ts": "2026-11-20T21:25:00+00:00"
+   },
+   {
+    "region": "日本",
+    "src": "鏡週刊Mirror Media",
+    "title": "39歲兒子開口要錢買房　老妻憂心這件事",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1CUkJiYnFYS21xRXdGU1lHSGNuTTNKVGgtTHRfbUM1WWZiZXo3czVDSXRBZ3pKZUtjOHFpVTFITm9TVE12U1Fpc1ZrSnc0ZEVPT0d2ajhVRkItSGl40gFiQVVfeXFMUDRIdlltblpNZ2dxR1FvSHhTN0g4R19Gd2lqdFV6YzVYNUxWaHFmZzRBX0E4X1R2alFnOENrLXhrVDhSeFFQYUxKWGxNWUtnNjZQVDE1YWF2MVJNNm5mbkwtWVE?oc=5",
+    "ts": "2026-11-20T21:05:00+00:00"
    },
    {
     "region": "日本",
@@ -780,13 +794,6 @@
    },
    {
     "region": "日本",
-    "src": "Saiga NAK",
-    "title": "參展Inter BEE 2026的「AWOL Vision」攤位報導！超過90萬日圓的投影機「AWOL LuxVision」於日本首次公開",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB5RmhnZ3kyOHROcGdVSFlra2RlWEV3b1IzVWtjb18tQnlacTZKQW1iV3FKUWxFUk5oX3pweXFYakJJc3R4QlVfMjFGYV8zVG5sUGZQR0J0eE9GZV8tSVctVjdYajRoOU5HcFpRNUt5b1V3S3Y3a2ZXadIBfkFVX3lxTE5ERkZRc3pDVGtvWllnR3ZXMDFGckF1OF8zS09XTUNHTU05TnhiR1BHWW1OdVdhUlhycGkyZTJpNG5veEhNNUNmU2h6NTJoZjQ1aWJpM2loN0J5WjZjT2c1N215X3ktSFhPMmFobEYtOG51UjFNN1E1Z1JySW92QQ?oc=5",
-    "ts": "2026-11-20T07:29:44+00:00"
-   },
-   {
-    "region": "日本",
     "src": "中央社 CNA",
     "title": "日股暴跌逾3000點 Anthropic上市難救行情| 證券",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFAtb2lHOTBNRThwS2JEOHVDZjNBZ0lrZVRBMy00ek9nQUdqWjl5ZDlqTFZENERSR1MwLXpDRnJMd2xWZGpZNko5ajNNV1dOS2xxUkRfWDdGSHBoLXMxMGc?oc=5",
@@ -840,13 +847,6 @@
     "title": "日銀加息路徑模糊，恐再給日元空頭可乘之機！",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdG5sLTlCSHVPWlJzT2k4RVE3d1QtcW1HbktPN05nbm9tM29jTHNKUTMwY0haQWpoNjYzR3paQWpHNTNfMnlXYXBja0NzYk9Xam43azlaNFU2QUR5dE92S0xTc1JuWXlrR3lxUXlPLVhiZHF2N0k2OUlzRXJIX09BejR4UTliYm5IdGUxdVdkdU1wamlFcjc2eFpWMDJKMUVB?oc=5",
     "ts": "2026-11-20T04:10:04+00:00"
-   },
-   {
-    "region": "日本",
-    "src": "www.tmgm.com",
-    "title": "日本通膨數據鞏固日本央行升息預期，日圓走強",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPSUxMNjNVRnBZaEVpZFhhMzN1aDhkWktkWk9XZE01a1FkUy13MC00Ykhvek1oamYyNk85dmI1SHRtRnM1cTZuTTFpTEc2cHFpWTBEQ1J2N1VUcGliaS1EU3oxVERZS2k3UHdkMlluVnJMdmxLV0hhdDdKamwwem85allXd1NZUXhHbEFtM1lBUTJOekV2Y2xEU1V0aE1FQWtIZFJTWFFRNFJZcVlkVzNPYnpzRGkwSmREaFdQUV9LY09oelZ4VjVGR2xQNTA3bVZQN05OM2ozZw?oc=5",
-    "ts": "2026-11-20T02:59:06+00:00"
    }
   ],
   "韓國": [
@@ -915,13 +915,6 @@
    },
    {
     "region": "韓國",
-    "src": "Yahoo新聞",
-    "title": "韓股KOSPI重挫跌破4900點！三星、SK海力士雙雙下挫，央行示警AI循環投資風險",
-    "link": "https://news.google.com/rss/articles/CBMioANBVV95cUxQXzFOUGpuMVFOOFBqZ1daUFVwaWNkN0duRjVERk9GRnRmM0plbGtiR055Qk5PeTRKV1NqWERzYlVqLU1ZYnFTVlhYaldxaWUyLV9jN0NhQjJVeXZwamIycXhHV3FTM05JQkdrN0NnX09RbzctUm5HUU1oOUZQS1lyVkx3V2hJM29QVnE5YmJ4OWlYb2NtM3NtYl9tQXRESVVsSGJiMTlOMUFtS3F1aFU3UURVbXpPbmkwSEJrTzh3RDFmRXVJb3FBMVZ1VkNieWF1N3BWYkw1bU9tS21FY2pUdHN1c21pME5MT2V2bmpnNGY0dWFjS0RQN1hiNW1MOUtJNEVOYzVZd1pRQmUwb0x5bE9zS2xZWUVaRW91M3ZwYkhIMW5UenFWaXpMNU9tdDMyNmlqcjVONEk2Y2lZX0F4QUdtdzd3Y3VqR2hXdnBGSnNQVW0zNWN1VHB3MzB1a0Vub0p1S0Q5bE81NGZhdWJvZWI4ZWc4SUFIaTV1aXJucHRWOERabVU4MlNQazNaN1hIM09nalJZMHlmR1E3VTNRZQ?oc=5",
-    "ts": "2026-11-20T11:50:00+00:00"
-   },
-   {
-    "region": "韓國",
     "src": "CMoney投資網誌",
     "title": "SK海力士轉債入股成曠日焦點！間接持股衝上14.1％ 成為Kioxia最大股東，是否重塑記憶體版圖？",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZm92SEhNTFdzdDFsdnFaTEJtUmdTaUUyLU5ueVNNZ3J4bUdXSEtMSTlES0Z6NUJkLXBBQ29tcldvNnlfVEV6bHk5amdISmRnNnlvREt6UGxZOHFrQWZYcHBINWNOc1QydWttV0Jqd1Aydmxwc2VIdGJvT0p6VDZ3c3RCRDJhZk1nVFZ4NV93?oc=5",
@@ -933,6 +926,13 @@
     "title": "SK海力士將成鎧俠最大股東 債轉股後間接持股14.1%",
     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9SOXpMSzlOR0pXTU92eFRXcmhXZndjNHdQUngxdmVUTVJuZjNKWF9vZXNYYjliR3JMcVRuZndnWTRCUFpTemhqSUluR21VYm1BV0NZaGlR?oc=5",
     "ts": "2026-11-20T11:45:05+00:00"
+   },
+   {
+    "region": "韓國",
+    "src": "LINE TODAY",
+    "title": "三星S26、S25與S24釋出手機更新！11月安全性維護只有這系列才有| 手機王",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5yellDUlprcEI1ZUNmdmd0Vk4xU2dReEwyMzFYQ3dFQzJib2VSSGJQLUN2Mzl5RVJJMGFld1dyVG9xbmdKUmh6bXROeE1jLTdaYVZ6dzNB?oc=5",
+    "ts": "2026-11-20T11:43:34+00:00"
    },
    {
     "region": "韓國",
@@ -964,6 +964,13 @@
    },
    {
     "region": "韓國",
+    "src": "風傳媒",
+    "title": "韓股KOSPI重挫跌破4900點！三星、SK海力士雙雙下挫，央行示警AI循環投資風險| 李靖棠| 新聞",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Ud0VUb2h6enVFTFFSY19sVVNpX2JoUXR0Smt3ZkxfcW55Q3dLWTVjNTY5Qm1zQXVGU0w2SGhDSkRZUG1Fd3kwcUR2NVdrdw?oc=5",
+    "ts": "2026-11-20T09:50:00+00:00"
+   },
+   {
+    "region": "韓國",
     "src": "經濟日報",
     "title": "台韓股重挫 外資轉移陣地改炒「這個國家」",
     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9xMDhOdDFyeHV6bDBFUF8xZW53bmlFYnBuSi1aYVZZaUdqYVIwX2F6dFZCb0NzcWZjeXMwcGtBX1lPeE1BVGlzb2phS0l1MzJFNng1OUNXX01uZ9IBX0FVX3lxTFBfZGVNbEM4WEU2T1l5ZjhlYzJWYkVIOFEwUjlhNnRtYVczdG5Fa1kwcjV1ZVV2OTJQUjB6QWlTd3gzYWZhRG9RQlZmak1xS29udGU2WTNFbVJxN1ZhZDBn?oc=5",
@@ -985,6 +992,13 @@
    },
    {
     "region": "韓國",
+    "src": "SOGI手機王",
+    "title": "三星手機高層人事異動！崔元俊接掌MX、盧泰文續任DX主管",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA3MHB6N1V3Q3AwRmkwSXYwY2NKQUtjRTJSRy0wNEs4cmJ2Y0tsb0k1dGRYNlc0bUctbWxpZWc0X2dhZ2xtd0ZkX0d6MzBCYlVPamI3MDlJR2RhTDda?oc=5",
+    "ts": "2026-11-20T08:09:34+00:00"
+   },
+   {
+    "region": "韓國",
     "src": "TradingView",
     "title": "三星電氣(601567.SH)：實際控制人、董事鄭堅江提議回購5000萬元-1億元公司股份",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0taTRBMll4TWpZTkhOTnQ5YkhCMHIyZlBDWlhSWmlrY0l3MmlsZzZqdGRnQmI1c05FYkVFNms4NDZVdnBLYTJzYmhxOHdLbWkxQmsyWUE2NEpjM3FqSXhPY2UyQXZaQ2ZBR2c?oc=5",
@@ -1003,13 +1017,6 @@
     "title": "日韩股市收盘均跌超5%，三星电子跌7%",
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1DV0Y4MmpEQ2kzUXRLbFNGWk1wajhvMUdRdnYwRzh1ZW1TMFZtQ25KUTVzaEdqZmRhYW4tMHVudmp4dGdZbjhMaVRoSzkxT0NTT0NFejRUVktQM3ZQcVRHNFNtQzY0QQ?oc=5",
     "ts": "2026-11-20T07:34:15+00:00"
-   },
-   {
-    "region": "韓國",
-    "src": "經濟日報",
-    "title": "科技股賣壓未止　日韓股收低日經狂瀉3000點",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1FVGNhSFFETWVKLUtxaTBfU0d4b0pGMXhYSEJkWjByaklHdDlUMkZMa0R5ck1xZU8wNTJtS2lTMmUtVHplQjFvLXJzSUdzMFltaVhMMzNHZ0FLZ9IBX0FVX3lxTE4wanpPMEc4SnVTbjY2WU5CTTZkaEllck9ZdUJhcV9NSVd6MUFWM2dOLWdNeVBTcHJQbVppb2xWOWp1WU9iakFLUG45TFZVYTdXZkx0UGpDeEtCWmJPcF8w?oc=5",
-    "ts": "2026-11-20T07:31:31+00:00"
    },
    {
     "region": "韓國",
@@ -1052,16 +1059,16 @@
     "title": "宜蘭酒米釀出新商機！三星中福酒廠首度採用在地嚴選米～打造清酒新產業鏈",
     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA1c0FibVNmeXIwR1k1cmNXWExnd2xCYmpyVjlhZVFhYTNIVHBjS3lZU1pSVUhKbmhEc3RiVmtLMnVwY3BQdElUdTlZcVk0UlRwTG9NcTNGOHBKdw?oc=5",
     "ts": "2026-11-20T05:01:00+00:00"
-   },
-   {
-    "region": "韓國",
-    "src": "DIGITIMES",
-    "title": "美國商務部禁令生效 台積電、三星同步暫停對中客戶出貨部分晶片",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOaXpfN05pV2lwaGpKN095VVVqamN4MUdWbjFPaW5OMEdIU3UxOWZPQm4tZWpzdjU3enRhT0lIanNKU0xzSUdXLTdMaXN6MkRaeEFnajdSMS1zYTZ4cGVhOWFWY3JUeWh0eDE0RmNjVUtJdlBNang0SUtRLXNZb3NJS21qRE01TmJqVDZEQS1B?oc=5",
-    "ts": "2026-11-20T03:39:00+00:00"
    }
   ],
   "歐洲": [
+   {
+    "region": "歐洲",
+    "src": "FXStreet",
+    "title": "歐元在市場已消化加息預期之際，迎來由美國通脹主導的一週",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOaUp6cUt2RlJjSGpIT0hZamlfaGFrZ2tBUnNCVXljWmV1QVRxTVBUVUVpaTNLQTh0aldqS2RuODl2VlM5ZWZyVUdaUnY1ZVhNX0FUc0h0bENTemdMNHlTZG1Tb18zb0ZwUXVmd3I2NDl2YXp1Z2VWSEdidW1zUDQ5S01BT1F3MnJ2RUxqcjI4VFhhamZDeDVfTUcwVUhUZFc1Y0pQbzRoUE96Q0VHbWNURGJtZk50MHNMSmdwMlZZRVVMNGRYenBzMGNfZ0RTQ0dZcEhQSlFR?oc=5",
+    "ts": "2026-11-20T22:00:24+00:00"
+   },
    {
     "region": "歐洲",
     "src": "BBC Business",
@@ -1148,6 +1155,13 @@
    },
    {
     "region": "歐洲",
+    "src": "TradingView",
+    "title": "受人工智能交易暴跌影響，投資者尋求避險，歐元區債券收益率下跌",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1ramhzbzd1eElzdFR3RVFCdmh2OURiYW9VQ1VRQWlnaE9fODJ2c202RjR6ak5KazN2eVJsT284NGhTb3Z3QzB5aEhlUVQtdjQxb1hCVl9WZUFPMlFlT3g2TDhmUEp1aElXYnhlUkxxUHMtTFJhNlJN?oc=5",
+    "ts": "2026-11-20T16:09:18+00:00"
+   },
+   {
+    "region": "歐洲",
     "src": "優分析 UAnalyze",
     "title": "歐元區11月消費者信心回升至負16.9 仍低於長期平均",
     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5BSTl6M0pNN3MxN0FhblN0cU9JMDRRQmpZOWd0aEVDeTlSdTRRZU5rMkJvZ1lzdmF1VENxTy1jLWVwU29DRnpsM20zWEVBVFl1eXhJU1FR?oc=5",
@@ -1173,13 +1187,6 @@
     "title": "歐股連四跌觸四週低點，Anthropic天價上市引發AI交易疑慮",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSEtoN2g0NndIazV6cmppN1huWlFzM2dtVW5LVE9VejJLd2VPSXctMThiUHhrQkdvWTJmT2J0REVxODVSdWNCLXpEaEpkbmhkbGU2U0hqUDVzOVN1MDlha0RFNm92NEpwRWprV1ZRTllEWEVMS2QycUFKbk8zQ0VkRFkwSGhpMV85Ulg2eTZ3?oc=5",
     "ts": "2026-11-20T15:08:59+00:00"
-   },
-   {
-    "region": "歐洲",
-    "src": "TradingView",
-    "title": "歐元區數據：11月消費者信心指數意外升至負16.9，預估為負18.0",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE16Y21abjJtN2R0TGJoV04wZ21lMWk4MEJWdW1rVXhKM29TOW9hM3JOWmU3WFBoOEFEUDItVHYyLXp0N3JuNHZMNmZYTXNpYkg2ZzN2RzNPT05DWFRtNDRwR3hIcmxpR2p1Yk83UEhia1NhSFJBMzVF?oc=5",
-    "ts": "2026-11-20T15:08:38+00:00"
    },
    {
     "region": "歐洲",
@@ -1264,13 +1271,6 @@
     "title": "AI泡沫警訊？歐股重挫、審計警告與散戶退潮撼動全球科技投資信心",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPWlF3T3lrR3VuLXY0X1B5a0F5a2laakx2VWh5WFlrOERaVHh4ZkNqb3V6Y3F0R2wxVHNwNVBCRmpDNWUzdWx4UFVfR0w2RUFPVDdmMUF4eUpiQ0FPaGVFdEYyM2t4QWxhUWlDMWpMdmgxQWM2V1k2OGV3ZG1rcU1EdThSMFljcXZMOUV1eG1R?oc=5",
     "ts": "2026-11-20T09:00:46+00:00"
-   },
-   {
-    "region": "歐洲",
-    "src": "富聯網",
-    "title": "歐股：AI拋售情緒衝擊科技股，道瓊歐洲600指數週五開盤下跌，三大股市齊黑",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNR0JKeENwN3NlbEc0N09PcDlXTk1JeGJDTlVJZ3FDdjZGRjk1SUVDM3h0Qk9YMzlDVTJxcW1oY1B5UnVLTHd2UXQ0Z2V1aG1RTXRSWXA4OHh4WU9pSTRqVXd6aTd3UE12VHBkY0dncUNjVUk4bElKQ1p0V1pUSTNJSnM4QjVBd2NF?oc=5",
-    "ts": "2026-11-20T08:27:00+00:00"
    }
   ]
  }
